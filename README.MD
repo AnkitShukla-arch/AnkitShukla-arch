@@ -28,7 +28,7 @@
 
 ### ⚙️ Tech Arsenal
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,Requests,BeautifulSoup,Pandas,NumPy,sklearn,aws,docker,mysql,git,github,vscode,c&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,requests,beautifulsoup,pandas,numpy,sklearn,aws,docker,mysql,git,github,vscode,c&theme=dark" />
 </p>
 
 ---
@@ -38,12 +38,12 @@
 <tr>
 <td align="center">
 <a href="https://github.com/AnkitShukla-arch/DATA-FILTER-AND-STORAGE-MODEL">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=Data_Filter_And_Storage_Model&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=DATA-FILTER-AND-STORAGE-MODEL&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
 </a>
 </td>
 <td align="center">
 <a href="https://github.com/AnkitShukla-arch/Offline-Movie-Recommender">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=movie-recommender&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=Offline-Movie-Recommender&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
 </a>
 </td>
 </tr>
@@ -54,8 +54,8 @@
 </a>
 </td>
 <td align="center">
-<a href="https://github.com/AnkitShukla-arch/data-pipeline">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=data-pipeline&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
+<a href="https://github.com/AnkitShukla-arch/https://github.com/AnkitShukla-arch/data_pipeline_project">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=https://github.com/AnkitShukla-arch/data_pipeline_project&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
 </a>
 </td>
 </tr>
