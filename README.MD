@@ -88,15 +88,11 @@
 
 ---
 
-### 📊 Telemetry
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AnkitShukla-arch&show_icons=true&theme=tokyonight&title_color=00BFFF&icon_color=00E0FF&bg_color=0A0F17&hide_border=true" width="47%">
-  <img src="https://streak-stats.demolab.com?user=AnkitShukla-arch&theme=tokyonight&fire=00BFFF&ring=00E0FF&background=0A0F17&hide_border=true" width="47%">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=2500&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Analyzing+Contributions...;Initializing+Telemetry+Module+📡;Graph+Synced+✅">
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnkitShukla-arch&theme=react-dark&bg_color=0A0F17&color=00E0FF&line=00BFFF&point=FFFFFF&area=true&radius=12&hide_border=true&height=320" width="95%">
-</p>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AnkitShukla-arch&theme=react-dark&bg_color=0A0F17&color=00E0FF&line=00BFFF&point=FFFFFF&area=true&radius=10&hide_border=true">
 
 ---
 
