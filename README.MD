@@ -76,15 +76,43 @@
 ---
 
 ### 🏅 Certifications
-<p align="center">
-  <img src="./data-science-orientation.png" width="120">
-  <img src="./python-ai.png" width="120">
-  <img src="./data-science-methodology.png" width="120">
-  <img src="./tools-for-data-science.png" width="120">
-  <img src="./python-project.png" width="120">
-  <img src="./sql-data-science.png" width="120">
-  <img src="./data-analysis-python.png" width="120">
-</p>
+<div align="center">
+
+<style>
+.certificate {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  border-radius: 10px;
+}
+.certificate:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 12px #00BFFF);
+}
+</style>
+
+<!-- IBM / Coursera Certificates with clickable links -->
+<a href="https://www.credly.com/badges/c97749f8-ac8e-4b6d-9845-0c5d36cc691e" target="_blank">
+  <img class="certificate" src="./data-science-orientation.png" width="120" alt="Data Science Orientation">
+</a>
+<a href="https://www.credly.com/badges/34c3bdd2-b2b0-4d28-9b71-9a2503363092" target="_blank">
+  <img class="certificate" src="./python-ai.png" width="120" alt="Python for Data Science & AI">
+</a>
+<a href="https://www.credly.com/badges/9082091e-6d39-4785-b145-332d96b0f0bd" target="_blank">
+  <img class="certificate" src="./data-science-methodology.png" width="120" alt="Data Science Methodology">
+</a>
+<a href="https://www.credly.com/badges/b0cc7f4d-7509-4a61-86fc-a141d2b1432c" target="_blank">
+  <img class="certificate" src="./tools-for-data-science.png" width="120" alt="Tools for Data Science">
+</a>
+<a href="https://www.credly.com/badges/337431c9-07fd-4b15-a939-b9ec231aab99" target="_blank">
+  <img class="certificate" src="./python-project.png" width="120" alt="Python Project for Data Science">
+</a>
+<a href="https://www.credly.com/badges/89e8f544-684e-4885-b1ec-ef53ebf6726a" target="_blank">
+  <img class="certificate" src="./sql-data-science.png" width="120" alt="Databases and SQL for Data Science">
+</a>
+<a href="https://www.credly.com/badges/d4f26717-6d8a-49ce-9974-c950f1b0acda" target="_blank">
+  <img class="certificate" src="./data-analysis-python.png" width="120" alt="Data Analysis with Python">
+</a>
+
+</div>
 
 ---
 <p align="center">
