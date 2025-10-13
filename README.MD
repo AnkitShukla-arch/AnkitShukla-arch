@@ -23,6 +23,10 @@
 - 🎬 **Movie Recommender** — Hybrid ML Engine  
 - 🧠 **Databases** — MySQL or Postgre SQL 
 - ☁️ **Data Pipeline Automation** — ETL + DataOps on AWS  
+- ☁️ **LlamaIndex Pipline** — LlamaIndex
+- 🧠 **CI/CD Pipelines** — GitHub Actions 
+
+
 
 ---
 
