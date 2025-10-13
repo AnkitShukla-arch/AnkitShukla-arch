@@ -88,8 +88,10 @@
 
 ---
 <p align="center">
-  <img src="./dynamic-graph.gif" width="95%">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=2500&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Analyzing+Contributions...;Initializing+Telemetry+Module+📡;Graph+Synced+✅">
 </p>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AnkitShukla-arch&theme=react-dark&bg_color=0A0F17&color=00E0FF&line=00BFFF&point=FFFFFF&area=true&radius=10&hide_border=true">
 
 ---
 
