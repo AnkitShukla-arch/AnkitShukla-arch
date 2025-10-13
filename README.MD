@@ -37,12 +37,12 @@
 <table align="center">
 <tr>
 <td align="center">
-<a href="https://github.com/AnkitShukla-arch/LeakHawk">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=LeakHawk&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
+<a href="https://github.com/AnkitShukla-arch/DATA-FILTER-AND-STORAGE-MODEL">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=Data_Filter_And_Storage_Model&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
 </a>
 </td>
 <td align="center">
-<a href="https://github.com/AnkitShukla-arch/movie-recommender">
+<a href="https://github.com/AnkitShukla-arch/Offline-Movie-Recommender">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=movie-recommender&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
 </a>
 </td>
