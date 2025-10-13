@@ -51,9 +51,6 @@
 <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas">
 <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="48" height="48" alt="Jupyter">
 <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" width="48" height="48" alt="Matplotlib">
-<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dask/dask-original.svg" width="48" height="48" alt="dask">
-<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/beautifulsoup/beautifulsoup-original.svg" width="48" height="48" alt="beautifulsoup">
-
 
 </div>
 
