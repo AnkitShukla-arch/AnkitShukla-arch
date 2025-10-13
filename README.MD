@@ -21,7 +21,7 @@
 
 ### 🧠 System Activity — Current Operations
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&duration=1500&pause=700&color=00E0FF&background=0A0F1700&center=true&vCenter=true&width=850&height=180&multiline=true&repeat=true&lines=🕵️‍♂️+HoneyPot+▶+DDOS+Attack+Handler+%26+Intrusion+Logger...;🎞️+Movie+Recommender+▶+Hybrid+ML+Recommendation+Engine...;🗄️+Databases+▶+MySQL+%26+PostgreSQL+Integration...;☁️+Data+Pipeline+Automation+▶+ETL+%2B+DataOps+on+AWS...;🔮+LlamaIndex+Pipeline+▶+Context-Aware+AI+Framework...;🚀+CI%2FCD+Pipelines+▶+GitHub+Actions+%26+Workflow+Automation...;✔️+Quantum+Engine:+STABLE+%7C+Uptime:+427h" alt="System Activity Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=1000&color=00BFFF&multiline=true&width=850&height=150&lines=🕵️‍♂️+HoneyPot+▶+DDOS+Attack+Handler+%26+Intrusion+Logger...;🎞️+Movie+Recommender+▶+Hybrid+ML+Recommendation+Engine...;🗄️+Databases+▶+MySQL+%26+PostgreSQL+Integration...;☁️+Data+Pipeline+Automation+▶+ETL+%2B+DataOps+on+AWS...;🔮+LlamaIndex+Pipeline+▶+Context-Aware+AI+Framework...;🚀+CI%2FCD+Pipelines+▶+GitHub+Actions+%26+Workflow+Automation...;✔️+Quantum+Engine+Stable+%7C+Uptime:+427h+)&repeat=True" alt="System Activity Animation">
 </p>
 
 
