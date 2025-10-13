@@ -29,21 +29,33 @@
 ---
 
 ### ⚙️ Tech Arsenal
-<p align="center">
-  <!-- Core stack -->
-  <img src="https://skillicons.dev/icons?i=python,aws,docker,linux,git,github,vscode,postman,mysql,sqlite,bash,cpp,java&theme=dark" /><br><br>
+<div align="center">
 
-  <!-- Data & ML libraries -->
-  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
-  <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white">
-  <img src="https://img.shields.io/badge/Matplotlib-003366?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Seaborn-2E86C1?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/LlamaIndex-00BFFF?style=for-the-badge&logo=ai&logoColor=white">
-</p>
+<!-- CSS for animation -->
+<style>
+.tech-icon {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.tech-icon:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 10px #00BFFF);
+}
+</style>
+
+<!-- Core Stack -->
+<img class="tech-icon" src="https://skillicons.dev/icons?i=python,aws,docker,linux,git,github,vscode,postman,mysql,sqlite,bash,cpp,java&theme=dark"><br><br>
+
+<!-- ML & Data Libraries -->
+<img class="tech-icon" src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark">
+<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy">
+<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas">
+<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikit-learn/scikit-learn-original.svg" width="48" height="48" alt="Scikit-learn">
+<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="48" height="48" alt="OpenCV">
+<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="48" height="48" alt="Jupyter">
+<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/anaconda/anaconda-original.svg" width="48" height="48" alt="Anaconda">
+<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" width="48" height="48" alt="Matplotlib">
+
+</div>
 
 
 ---
