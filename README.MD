@@ -29,32 +29,20 @@
 ---
 
 ### ⚙️ Tech Arsenal
-<div align="center">
+<p align="center">
+  <!-- Core stack -->
+  <img src="https://skillicons.dev/icons?i=python,aws,docker,linux,git,github,vscode,postman,mysql,sqlite,bash,cpp,java&theme=dark" /><br><br>
 
-<!-- CSS for animation -->
-<style>
-.tech-icon {
-  transition: transform 0.3s ease, filter 0.3s ease;
-}
-.tech-icon:hover {
-  transform: scale(1.2);
-  filter: drop-shadow(0 0 10px #00BFFF);
-}
-</style>
-
-<!-- Core Stack -->
-<img class="tech-icon" src="https://skillicons.dev/icons?i=python,aws,docker,git,github,vscode,mysql,sqlite&theme=dark"><br><br>
-
-<!-- ML & Data Libraries -->
-<img class="tech-icon" src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark">
-<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy">
-<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas">
-<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikit-learn/scikit-learn-original.svg" width="48" height="48" alt="Scikit-learn">
-<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="48" height="48" alt="OpenCV">
-<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="48" height="48" alt="Jupyter">
-<img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" width="48" height="48" alt="Matplotlib">
-
-</div>
+  <!-- Data & ML Libraries -->
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="48" height="48" alt="OpenCV">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikit-learn/scikit-learn-original.svg" width="48" height="48" alt="Scikit-learn">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="48" height="48" alt="Jupyter">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/anaconda/anaconda-original.svg" width="48" height="48" alt="Anaconda">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" width="48" height="48" alt="Matplotlib">
+</p>
 
 
 ---
