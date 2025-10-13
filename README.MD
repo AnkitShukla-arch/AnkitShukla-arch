@@ -55,7 +55,6 @@
 ### 🛰️ Project Dashboard
 | Repository | Function |
 |-------------|-----------|
-| [🔒 LeakHawk](https://github.com/AnkitShukla-arch/LeakHawk) | OSINT Leak Detection & Cyber Intel |
 | [🎬 Movie Recommender](https://github.com/AnkitShukla-arch/movie-recommender) | Hybrid Recommendation Engine |
 | [🗣️ Voice Assistant](https://github.com/AnkitShukla-arch/voice-assistant) | Emotion-aware Wake-word AI |
 | [⚙️ Data Pipeline](https://github.com/AnkitShukla-arch/data-pipeline) | Automated ETL / Cloud Ingestion |
