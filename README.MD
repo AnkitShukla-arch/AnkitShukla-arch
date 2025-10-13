@@ -19,9 +19,9 @@
 ---
 
 ### 🚀 Currently Working On
-- 🔒 **LeakHawk** — OSINT-based Cyber Threat Detection  
+- 🔒 **HoneyPot** — DDOS Attack Handler  
 - 🎬 **Movie Recommender** — Hybrid ML Engine  
-- 🧠 **Voice Assistant** — Emotion-aware AI System  
+- 🧠 **Databases** — MySQL or Postgre SQL 
 - ☁️ **Data Pipeline Automation** — ETL + DataOps on AWS  
 
 ---
