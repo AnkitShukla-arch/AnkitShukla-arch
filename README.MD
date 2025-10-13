@@ -18,14 +18,29 @@
 
 ---
 
-### 🚀 Currently Working On
-### 🚀 Currently Working On
-- 🕵️‍♂️ **HoneyPot** — 🛡️ DDOS Attack Handler & Intrusion Logger  
-- 🎞️ **Movie Recommender** — 🎯 Hybrid ML Recommendation Engine  
-- 🗄️ **Databases** — 🐬 MySQL | 🐘 PostgreSQL Integration  
-- ☁️ **Data Pipeline Automation** — ⚙️ ETL + DataOps on AWS  
-- 🔮 **LlamaIndex Pipeline** — 🤖 Context-Aware AI Data Framework  
-- 🧩 **CI/CD Pipelines** — 🚀 GitHub Actions & Workflow Automation  
+### 🧠 System Activity — Current Operations
+> [🔵] Initializing active projects...
+> [✅] Modules online:
+> 
+> 🕵️‍♂️ **HoneyPot** — 🛡️ DDOS Attack Handler & Intrusion Logger  
+> ⏳ Status: ACTIVE | Threat Response Engine Calibrating ⚙️
+> 
+> 🎞️ **Movie Recommender** — 🎯 Hybrid ML Recommendation Engine  
+> 🚧 Status: TRAINING | Model Optimization in Progress 🔄
+> 
+> 🗄️ **Databases** — 🐬 MySQL | 🐘 PostgreSQL  
+> ⚙️ Status: CONFIGURED | Replication Stable ✅
+> 
+> ☁️ **Data Pipeline Automation** — ⚙️ ETL + DataOps on AWS  
+> 🌩️ Status: STREAMING | Lambda Sync: ON 🔁
+> 
+> 🔮 **LlamaIndex Pipeline** — 🤖 Context-Aware AI Data Framework  
+> 🧩 Status: LINKED | Node Indexing at 92% ⌛
+> 
+> 🚀 **CI/CD Pipelines** — 🧠 GitHub Actions & Workflow Automation  
+> 🔁 Status: DEPLOYING | Workflow Triggers Armed 🧨
+> 
+> [✔️] System uptime: 427 hours | Quantum Engine: STABLE ⚡
 
 
 
