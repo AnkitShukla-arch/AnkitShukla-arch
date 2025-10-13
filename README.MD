@@ -19,28 +19,9 @@
 ---
 
 ### 🧠 System Activity — Current Operations
-> [🔵] Initializing active projects...
-> [✅] Modules online:
-> 
-> 🕵️‍♂️ **HoneyPot** — 🛡️ DDOS Attack Handler & Intrusion Logger  
-> ⏳ Status: ACTIVE | Threat Response Engine Calibrating ⚙️
-> 
-> 🎞️ **Movie Recommender** — 🎯 Hybrid ML Recommendation Engine  
-> 🚧 Status: TRAINING | Model Optimization in Progress 🔄
-> 
-> 🗄️ **Databases** — 🐬 MySQL | 🐘 PostgreSQL  
-> ⚙️ Status: CONFIGURED | Replication Stable ✅
-> 
-> ☁️ **Data Pipeline Automation** — ⚙️ ETL + DataOps on AWS  
-> 🌩️ Status: STREAMING | Lambda Sync: ON 🔁
-> 
-> 🔮 **LlamaIndex Pipeline** — 🤖 Context-Aware AI Data Framework  
-> 🧩 Status: LINKED | Node Indexing at 92% ⌛
-> 
-> 🚀 **CI/CD Pipelines** — 🧠 GitHub Actions & Workflow Automation  
-> 🔁 Status: DEPLOYING | Workflow Triggers Armed 🧨
-> 
-> [✔️] System uptime: 427 hours | Quantum Engine: STABLE ⚡
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=1000&color=00BFFF&multiline=true&width=850&height=150&lines=🕵️‍♂️+HoneyPot+▶+DDOS+Attack+Handler+%26+Intrusion+Logger...;🎞️+Movie+Recommender+▶+Hybrid+ML+Recommendation+Engine...;🗄️+Databases+▶+MySQL+%26+PostgreSQL+Integration...;☁️+Data+Pipeline+Automation+▶+ETL+%2B+DataOps+on+AWS...;🔮+LlamaIndex+Pipeline+▶+Context-Aware+AI+Framework...;🚀+CI%2FCD+Pipelines+▶+GitHub+Actions+%26+Workflow+Automation...;✔️+Quantum+Engine+Stable+%7C+Uptime:+427h+)&repeat=True" alt="System Activity Animation">
+</p>
 
 
 
