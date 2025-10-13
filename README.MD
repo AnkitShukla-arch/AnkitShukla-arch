@@ -90,8 +90,8 @@
 
 ### 📊 Telemetry
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AnkitShukla-arch&show_icons=true&theme=tokyonight&title_color=00BFFF&icon_color=00E0FF&bg_color=0A0F17&hide_border=true" width="47%">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=AnkitShukla-arch&theme=tokyonight&fire=00BFFF&ring=00E0FF&background=0A0F17&hide_border=true" width="47%">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AnkitShukla-arch&show_icons=true&theme=tokyonight&title_color=00BFFF&icon_color=00E0FF&bg_color=0A0F17&hide_border=true" width="47%">
+  <img src="https://streak-stats.demolab.com?user=AnkitShukla-arch&theme=tokyonight&fire=00BFFF&ring=00E0FF&background=0A0F17&hide_border=true" width="47%">
 </p>
 
 <p align="center">
