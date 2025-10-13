@@ -49,13 +49,13 @@
 </tr>
 <tr>
 <td align="center">
-<a href="https://github.com/AnkitShukla-arch/voice-assistant">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=voice-assistant&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
+<a href="https://github.com/AnkitShukla-arch/data_pipeline_project">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=https://github.com/AnkitShukla-arch/data_pipeline_project&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
 </a>
 </td>
 <td align="center">
-<a href="https://github.com/AnkitShukla-arch/https://github.com/AnkitShukla-arch/data_pipeline_project">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=https://github.com/AnkitShukla-arch/data_pipeline_project&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
+<a href="https://github.com/AnkitShukla-arch/Basic-Password-Manager">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=https://github.com/AnkitShukla-arch/Basic-Password-Managert&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF">
 </a>
 </td>
 </tr>
