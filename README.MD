@@ -28,7 +28,7 @@
 
 ### ⚙️ Tech Arsenal
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,aws,docker,linux,mysql,git,github,vscode,bash,ubuntu,java,cpp,c&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,Requests,BeautifulSoup,Pandas,NumPy,sklearn,aws,docker,mysql,git,github,vscode,c&theme=dark" />
 </p>
 
 ---
