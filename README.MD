@@ -34,6 +34,14 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,requests,beautifulsoup,pandas,numpy,sklearn,aws,docker,mysql,git,github,vscode,c&theme=dark" />
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+  <img src="https://img.shields.io/badge/Requests-20232A?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/BeautifulSoup-00BFFF?style=for-the-badge&logo=python&logoColor=white">
+</p>
+
 
 ---
 
