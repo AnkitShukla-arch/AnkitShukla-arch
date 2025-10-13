@@ -19,12 +19,13 @@
 ---
 
 ### 🚀 Currently Working On
-- 🔒 **HoneyPot** — DDOS Attack Handler  
-- 🎬 **Movie Recommender** — Hybrid ML Engine  
-- 🧠 **Databases** — MySQL or Postgre SQL 
-- ☁️ **Data Pipeline Automation** — ETL + DataOps on AWS  
-- ☁️ **LlamaIndex Pipline** — LlamaIndex
-- 🧠 **CI/CD Pipelines** — GitHub Actions 
+### 🚀 Currently Working On
+- 🕵️‍♂️ **HoneyPot** — 🛡️ DDOS Attack Handler & Intrusion Logger  
+- 🎞️ **Movie Recommender** — 🎯 Hybrid ML Recommendation Engine  
+- 🗄️ **Databases** — 🐬 MySQL | 🐘 PostgreSQL Integration  
+- ☁️ **Data Pipeline Automation** — ⚙️ ETL + DataOps on AWS  
+- 🔮 **LlamaIndex Pipeline** — 🤖 Context-Aware AI Data Framework  
+- 🧩 **CI/CD Pipelines** — 🚀 GitHub Actions & Workflow Automation  
 
 
 
