@@ -32,7 +32,7 @@
 
 ### ⚙️ Tech Arsenal
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,requests,beautifulsoup,pandas,numpy,sklearn,aws,docker,mysql,git,github,vscode,c&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,sklearn,aws,docker,mysql,git,github,vscode,c&theme=dark" />
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
