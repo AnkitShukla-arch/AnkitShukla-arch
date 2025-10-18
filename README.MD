@@ -85,42 +85,34 @@
 
 ### 🏅 Certifications
 
-<style>
-  a img {
-    transition: transform 0.25s ease, filter 0.25s ease;
-  }
-  a img:hover {
-    transform: scale(1.08);
-    filter: drop-shadow(0 0 12px #00BFFF);
-  }
-</style>
+### 🏅 Certifications  
 
 <p align="center">
-  <a href="https://www.credly.com/badges/c97749f8-ac8e-4b6d-9845-0c5d36cc691e" target="_blank">
-    <img src="./data-science-orientation.png" width="140" alt="Data Science Orientation" title="Data Science Orientation">
+  <a href="https://www.credly.com/badges/your-data-science-orientation" target="_blank">
+    <img src="./data-scientist-orientation.png" width="120" style="border-radius:10px; margin:5px;">
   </a>
-  <a href="https://www.credly.com/badges/34c3bdd2-b2b0-4d28-9b71-9a2503363092" target="_blank">
-    <img src="./python-ai.png" width="140" alt="Python for Data Science and AI" title="Python for Data Science and AI">
+  <a href="https://www.credly.com/badges/your-python-ai" target="_blank">
+    <img src="./python-ai.png" width="120" style="border-radius:10px; margin:5px;">
   </a>
-  <a href="https://www.credly.com/badges/9082091e-6d39-4785-b145-332d96b0f0bd" target="_blank">
-    <img src="./data-science-methodology.png" width="140" alt="Data Science Methodology" title="Data Science Methodology">
+  <a href="https://www.credly.com/badges/your-data-science-methodology" target="_blank">
+    <img src="./data-science-methodology.png" width="120" style="border-radius:10px; margin:5px;">
   </a>
-  <a href="https://www.credly.com/badges/b0cc7f4d-7509-4a61-86fc-a141d2b1432c" target="_blank">
-    <img src="./tools-for-data-science.png" width="140" alt="Tools for Data Science V2" title="Tools for Data Science V2">
+  <a href="https://www.credly.com/badges/your-tools-for-data-science" target="_blank">
+    <img src="./tools-for-data-science.png" width="120" style="border-radius:10px; margin:5px;">
   </a>
-  <a href="https://www.credly.com/badges/337431c9-07fd-4b15-a939-b9ec231aab99" target="_blank">
-    <img src="./python-project.png" width="140" alt="Python Project for Data Science" title="Python Project for Data Science">
+  <a href="https://www.credly.com/badges/your-python-project" target="_blank">
+    <img src="./python-project.png" width="120" style="border-radius:10px; margin:5px;">
   </a>
-  <a href="https://www.credly.com/badges/89e8f544-684e-4885-b1ec-ef53ebf6726a" target="_blank">
-    <img src="./sql-data-science.png" width="140" alt="Databases and SQL for Data Science" title="Databases and SQL for Data Science">
+  <a href="https://www.credly.com/badges/your-sql-data-science" target="_blank">
+    <img src="./sql-data-science.png" width="120" style="border-radius:10px; margin:5px;">
   </a>
-  <a href="https://www.credly.com/badges/d4f26717-6d8a-49ce-9974-c950f1b0acda" target="_blank">
-    <img src="./data-analysis-python.png" width="140" alt="Data Analysis with Python" title="Data Analysis with Python">
+  <a href="https://www.credly.com/badges/your-data-analysis-python" target="_blank">
+    <img src="./data-analysis-python.png" width="120" style="border-radius:10px; margin:5px;">
   </a>
 </p>
 
 <p align="center">
-  <i style="color:#00BFFF;">Click any certificate to verify on Credly • IBM & Coursera Certified ⚡</i>
+  <i>Click any certificate to verify on Credly • IBM & Coursera Certified ⚡</i>
 </p>
 
 ---
