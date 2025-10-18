@@ -1,0 +1,49 @@
+name: ❤️ Generate Heartbeat Graph
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # runs daily
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install gitfiti
+        run: |
+          git clone https://github.com/gelstudios/gitfiti.git
+          cd gitfiti
+          chmod +x gitfiti.py
+
+      - name: Generate Heartbeat ASCII
+        run: |
+          cd gitfiti
+          cat << 'EOF' > heartbeat.txt
+          __  __     __    __     ______   __  __     __     ______     ______    
+         /\ \/ /    /\ "-./  \   /\  ___\ /\ \/\ \   /\ \   /\  ___\   /\  == \   
+         \ \  _"-.  \ \ \-./\ \  \ \  __\ \ \ \_\ \  \ \ \  \ \  __\   \ \  __<   
+          \ \_\ \_\  \ \_\ \ \_\  \ \_\    \ \_____\  \ \_\  \ \_____\  \ \_\ \_\ 
+           \/_/\/_/   \/_/  \/_/   \/_/     \/_____/   \/_/   \/_____/   \/_/ /_/ 
+          EOF
+
+      - name: Generate Graph Preview
+        run: |
+          mkdir -p preview
+          cd gitfiti
+          python3 gitfiti.py --message-file heartbeat.txt --years 5 --output ../preview/heartbeat-preview.png
+
+      - name: Commit & Push Preview
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "Add Heartbeat Preview"
+          add: "preview/heartbeat-preview.png"
