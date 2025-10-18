@@ -157,18 +157,17 @@
   <img src="https://github.com/AnkitShukla-arch/AnkitShukla-arch/blob/main/github-metrics.svg" alt="GitHub Metrics" width="85%">
 </p>
 
+<p align="center">
+  <img src="https://github.com/AnkitShukla-arch/AnkitShukla-arch/blob/main/github-metrics.svg" alt="GitHub Metrics" width="90%">
+</p>
+
+
 ---
 
 ### 🧱 3D Contribution Graph
 
 <p align="center">
   <img src="./profile-3d-contrib/profile-green.svg" width="700">
-</p>
-
----
-
-<p align="center">
-  <img src="https://github.com/AnkitShukla-arch/AnkitShukla-arch/blob/main/github-metrics.svg" alt="GitHub Metrics" width="90%">
 </p>
 
 ---
