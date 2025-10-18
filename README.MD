@@ -88,19 +88,19 @@
 <table align="center">
   <tr>
     <td align="center">
-        <img src="data-science-orientation.png" width="150px" alt="Certificate 1"/>
+        <img src="data-science-orientation.png" width="200px" alt="Certificate 1"/>
       </a>
       <br/>
       <sub><b>Data Science Orientation</b></sub>
     </td>
     <td align="center">
-        <img src="python-ai.png" width="150px" alt="Certificate 2"/>
+        <img src="python-ai.png" width="200px" alt="Certificate 2"/>
       </a>
       <br/>
       <sub><b>Python for Data Science</b></sub>
     </td>
     <td align="center">
-        <img src="data-science-methodology.png" width="150px" alt="Certificate 3"/>
+        <img src="data-science-methodology.png" width="200px" alt="Certificate 3"/>
       </a>
       <br/>
       <sub><b>Data Science Methodology</b></sub>
@@ -108,19 +108,19 @@
   </tr>
   <tr>
     <td align="center">
-        <img src="sql-data-science.png" width="150px" alt="Certificate 4"/>
+        <img src="sql-data-science.png" width="200px" alt="Certificate 4"/>
       </a>
       <br/>
       <sub><b>Databases & SQL</b></sub>
     </td>
     <td align="center">
-        <img src="python-project.png" width="150px" alt="Certificate 5"/>
+        <img src="python-project.png" width="200px" alt="Certificate 5"/>
       </a>
       <br/>
       <sub><b>Applied Data Science</b></sub>
     </td>
     <td align="center">
-        <img src="tools-for-data-science.png" width="150px" alt="Certificate 6"/>
+        <img src="tools-for-data-science.png" width="200px" alt="Certificate 6"/>
       </a>
       <br/>
       <sub><b>Tools for Data Science</b></sub>
