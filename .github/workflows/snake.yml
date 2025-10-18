@@ -8,15 +8,19 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate Snake
-        uses: Platane/snk@v3
+      - name: Generate Snake animation
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: AnkitShukla-arch
           outputs: |
@@ -24,13 +28,9 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake-ocean.svg?palette=github-dark
 
-      - name: Push to output branch
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan output
-          git rm -rf .
-          mv dist/* .
-          git add .
-          git commit -m "Generated Snake Animation"
-          git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} output
+      - name: Deploy snake files
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: dist
