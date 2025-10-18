@@ -83,7 +83,7 @@
 
 ---
 
-## 🏅 Certifications
+## 🏅 Certifications & Badges
 
 <table align="center">
   <tr>
