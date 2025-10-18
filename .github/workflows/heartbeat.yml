@@ -1,43 +1,43 @@
 name: ❤️ Generate Heartbeat Graph
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # runs daily
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"  # runs daily
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
-      - name: Install Dependencies
+      - name: Install gitfiti
         run: |
-          sudo apt-get update
-          sudo apt-get install -y git imagemagick
+          sudo apt-get update -y
+          sudo apt-get install -y git imagemagick python3 python3-pip
           git clone https://github.com/gelstudios/gitfiti.git
           cd gitfiti
           chmod +x gitfiti.py
 
-      - name: Generate Heartbeat ASCII
+      - name: Create heartbeat ASCII (safe echo method)
         run: |
           mkdir -p preview
           cd gitfiti
-          cat > heartbeat.txt << 'EOF'
-   __    __    ___  _        __   _  _  ____  ____  ____ 
-  /__\  (  )  / __)( )      /__\ ( \/ )(  _ \( ___)(_  _)
- /(__)\  )(__ \__ \ )(__   /(__)\ \  /  )   / )__)   )(  
-(__)(__)(____)(___/(____) (__)(__)(__) (_)\_)(____) (__) 
-EOF
+          echo "   __    __    ___  _        __   _  _  ____  ____  ____ " > heartbeat.txt
+          echo "  /__\  (  )  / __)( )      /__\ ( \/ )(  _ \( ___)(_  _)" >> heartbeat.txt
+          echo " /(__)\  )(__ \__ \ )(__   /(__)\ \  /  )   / )__)   )(  " >> heartbeat.txt
+          echo "(__)(__)(____)(___/(____) (__)(__)(__) (_)\_)(____) (__) " >> heartbeat.txt
 
-      - name: Generate Graph Automatically
+      - name: Generate heartbeat graph automatically
         run: |
           cd gitfiti
           yes "" | python3 gitfiti.py \
@@ -45,18 +45,18 @@ EOF
             --years 1 \
             --color "#00BFFF" \
             --background "#0A0F17" \
-            --output ../preview/heartbeat-preview.png
+            --output ../preview/heartbeat-preview.png || true
 
-      - name: Verify file creation
+      - name: Show generated files (debug)
         run: |
-          echo "Checking generated files:"
-          ls -la preview || true
+          echo "Preview folder content:"
+          ls -la preview || echo "No preview folder found"
 
-      - name: Commit & Push Preview
+      - name: Commit and push preview (if exists)
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "Add Heartbeat Preview"
+          message: "❤️ Add Heartbeat Preview"
           add: "preview/heartbeat-preview.png"
           push: true
