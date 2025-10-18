@@ -1,62 +1,46 @@
-name: ❤️ Generate Heartbeat Graph
+name: ❤️ Heartbeat Contribution Palette
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"  # runs daily
+    - cron: '0 0 * * 0'  # Runs every Sunday at midnight
+  workflow_dispatch:      # Allows manual trigger
+
+permissions:
+  contents: write
 
 jobs:
-  generate:
+  generate-heartbeat:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: '3.10'
 
-      - name: Install gitfiti
+      - name: Install Gitfiti
         run: |
-          sudo apt-get update -y
-          sudo apt-get install -y git imagemagick python3 python3-pip
           git clone https://github.com/gelstudios/gitfiti.git
-          cd gitfiti
-          chmod +x gitfiti.py
+          pip install -r gitfiti/requirements.txt || echo "No requirements file"
 
-      - name: Create heartbeat ASCII (safe echo method)
+      - name: Generate Heartbeat Palette
         run: |
           mkdir -p preview
-          cd gitfiti
-          echo "   __    __    ___  _        __   _  _  ____  ____  ____ " > heartbeat.txt
-          echo "  /__\  (  )  / __)( )      /__\ ( \/ )(  _ \( ___)(_  _)" >> heartbeat.txt
-          echo " /(__)\  )(__ \__ \ )(__   /(__)\ \  /  )   / )__)   )(  " >> heartbeat.txt
-          echo "(__)(__)(____)(___/(____) (__)(__)(__) (_)\_)(____) (__) " >> heartbeat.txt
+          python3 gitfiti/gitfiti.py --message "💙 I LOVE YOU 💙" --years 1 || echo "Generation skipped"
+          if [ -f gitfiti/output/gitfiti.png ]; then
+            mv gitfiti/output/gitfiti.png preview/heartbeat-preview.png
+          fi
 
-      - name: Generate heartbeat graph automatically
+      - name: Commit and Push Changes
         run: |
-          cd gitfiti
-          yes "" | python3 gitfiti.py \
-            --message-file heartbeat.txt \
-            --years 1 \
-            --color "#00BFFF" \
-            --background "#0A0F17" \
-            --output ../preview/heartbeat-preview.png || true
-
-      - name: Show generated files (debug)
-        run: |
-          echo "Preview folder content:"
-          ls -la preview || echo "No preview folder found"
-
-      - name: Commit and push preview (if exists)
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: github-actions
-          author_email: github-actions@github.com
-          message: "❤️ Add Heartbeat Preview"
-          add: "preview/heartbeat-preview.png"
-          push: true
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add preview/heartbeat-preview.png
+          git commit -m "💓 Update Heartbeat Palette" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
