@@ -158,32 +158,9 @@
 
 ---
 
-<img src="/github-metrics.svg" alt="Metrics" width="100%">
-
----
-
- ```geojson
-{
- "type": "FeatureCollection",
- "features": [
-   {
-     "type": "Feature",
-     "id": 1,
-     "properties": {
-       "ID": 0
-     },
-     "geometry": {
-       "type": "Polygon",
-       "coordinates": [
-         [
-             [23.5,53.9],
-             [32.6,52.6]
-         ]
-       ]
-     }
-   }
- ]
-}
+<p align="center">
+  <img src="https://github.com/AnkitShukla-arch/AnkitShukla-arch/blob/main/github-metrics.svg" alt="GitHub Metrics" />
+</p>
 
 ---
 
