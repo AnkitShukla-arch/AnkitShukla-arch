@@ -1,47 +1,65 @@
-name: "Generate Heartbeat GitHub Contribution Pattern"
+name: "💓 GitHub Heartbeat Pattern (final)"
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"  # weekly
 
 permissions:
   contents: write
 
 jobs:
-  draw-heartbeat:
+  heartbeat:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Setup git
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Install Python and Gitfiti
+      - name: Install dependencies and gitfiti
         run: |
-          sudo apt-get update
-          sudo apt-get install -y python3 git
+          sudo apt-get update -y
+          sudo apt-get install -y python3 python3-pip git
           git clone https://github.com/gelstudios/gitfiti.git
           cd gitfiti
-          pip install -r requirements.txt
+          pip3 install -r requirements.txt || true
 
-      - name: Generate heartbeat pattern
+      - name: Create heartbeat pattern file (no heredoc)
+        run: |
+          # create a small heartbeat ASCII art file using printf (safe inside YAML run block)
+          mkdir -p tmp_pattern
+          printf "%s\n" "    __        __        __" > tmp_pattern/heartbeat.txt
+          printf "%s\n" "   /  \\__/\\/\\__/\\/\\__/\\/  \\" >> tmp_pattern/heartbeat.txt
+          printf "%s\n" "  /                        \\" >> tmp_pattern/heartbeat.txt
+          printf "%s\n" " /                          \\" >> tmp_pattern/heartbeat.txt
+          printf "%s\n" "/                            \\" >> tmp_pattern/heartbeat.txt
+          printf "%s\n" "\\                            /" >> tmp_pattern/heartbeat.txt
+          printf "%s\n" " \\                          /" >> tmp_pattern/heartbeat.txt
+          printf "%s\n" "  \\                        /" >> tmp_pattern/heartbeat.txt
+          printf "%s\n" "   \\__/\\/\\__/\\/\\__/\\/\\__/  /" >> tmp_pattern/heartbeat.txt
+
+      - name: Run gitfiti to generate commits and preview image
         run: |
           cd gitfiti
-          cat << 'EOF' > heartbeat.txt
-      __        __        __
-     /  \__/\/\__/\/\__/\/  \
-    /                        \
-   /                          \
-  /                            \
-EOF
+          # feed the pattern file we created above
+          python3 gitfiti.py --file ../tmp_pattern/heartbeat.txt --year 2025 --target ../pattern-repo || true
+          # copy preview image (if produced) to repo preview folder
+          mkdir -p preview
+          if [ -f ../pattern-repo/output/LeeHeartbeat_2025.png ]; then
+            cp ../pattern-repo/output/LeeHeartbeat_2025.png preview/heartbeat-preview.png
+          elif ls ../pattern-repo/output/*.png 1> /dev/null 2>&1; then
+            cp ../pattern-repo/output/*.png preview/heartbeat-preview.png
+          else
+            echo "No preview image found yet"
+          fi
 
-          python3 gitfiti.py --file heartbeat.txt --year 2025 --target ../pattern-repo
-          cd ../pattern-repo
-          git init
-          git add .
-          git commit -m "💓 Generated heartbeat contribution pattern"
-          git branch -M main
-          git remote add origin https://github.com/${{ github.repository }}.git
-          git push -f origin main
+      - name: Commit and push preview (if any)
+        run: |
+          git add preview/heartbeat-preview.png || true
+          git commit -m "❤️ Add/Update heartbeat preview" || echo "no preview changes"
+          git push || echo "push failed (check permissions)"
