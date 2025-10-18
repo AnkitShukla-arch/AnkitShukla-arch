@@ -167,8 +167,9 @@
 
 ---
 
-### ❤️ Heartbeat Contribution Preview
-<img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/preview/heartbeat-preview.png" width="800" alt="Heartbeat Contribution Graph" />
+<p align="center">
+  <img src="https://github.com/AnkitShukla-arch/AnkitShukla-arch/blob/main/github-metrics.svg" alt="GitHub Metrics" width="90%">
+</p>
 
 ---
 
