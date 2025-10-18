@@ -1,0 +1,49 @@
+name: ❤️ Heartbeat Contribution Palette
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'   # Every Sunday midnight
+  workflow_dispatch:       # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  generate-heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Pillow
+        run: |
+          pip install pillow
+
+      - name: Generate Heartbeat Palette (Simple)
+        run: |
+          mkdir -p preview
+          cat <<'EOF' > preview/heartbeat-preview.png
+          iVBORw0KGgoAAAANSUhEUgAAAoAAAAKACAYAAAC8eYXwAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+          AAALEwAACxMBAJqcGAAAAAd0SU1FB+UKDQ0zOtFj4aEAAAGHSURBVHja7cEBDQAAAMKg909tDjegAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwcE
+          AAFOwYypAAAAAElFTkSuQmCC
+          EOF
+          echo "✅ Dummy heartbeat image created."
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add preview/heartbeat-preview.png
+          git commit -m "💓 Auto-update Heartbeat Palette" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
