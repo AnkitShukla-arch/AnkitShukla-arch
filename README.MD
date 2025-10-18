@@ -125,8 +125,9 @@
 
 ### 🐍 System Processes
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/output/github-contribution-grid-snake-dark.svg" alt="Quantum Snake Simulation" width="90%">
+  <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/output/github-contribution-grid-snake-dark.svg" alt="snake animation">
 </p>
+
 
 ---
 
