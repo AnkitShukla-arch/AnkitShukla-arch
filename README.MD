@@ -167,6 +167,10 @@
 
 ---
 
+![Heartbeat Preview](https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/preview/heartbeat-preview.png)
+
+---
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=AnkitShukla-arch&color=00BFFF&style=flat-square">
 </p>
