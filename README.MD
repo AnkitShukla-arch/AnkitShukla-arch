@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="./quantum-banner.gif" alt="Quantum Banner" width="100%">
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=30&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Hi,+there!+I'm+Lee+Christmas;A+Data+Enthusiast;+Welcome+To+My+Profile!" alt="Typing SVG">
 </p>
 
