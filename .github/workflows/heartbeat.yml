@@ -1,0 +1,47 @@
+name: "Generate Heartbeat GitHub Contribution Pattern"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draw-heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Install Python and Gitfiti
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3 git
+          git clone https://github.com/gelstudios/gitfiti.git
+          cd gitfiti
+          pip install -r requirements.txt
+
+      - name: Generate heartbeat pattern
+        run: |
+          cd gitfiti
+          cat << 'EOF' > heartbeat.txt
+      __        __        __
+     /  \__/\/\__/\/\__/\/  \
+    /                        \
+   /                          \
+  /                            \
+EOF
+
+          python3 gitfiti.py --file heartbeat.txt --year 2025 --target ../pattern-repo
+          cd ../pattern-repo
+          git init
+          git add .
+          git commit -m "💓 Generated heartbeat contribution pattern"
+          git branch -M main
+          git remote add origin https://github.com/${{ github.repository }}.git
+          git push -f origin main
