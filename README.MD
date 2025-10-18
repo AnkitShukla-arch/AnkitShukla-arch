@@ -159,7 +159,7 @@
 ### 🧱 3D Contribution Graph
 
 <p align="center">
-  <img src="https://github.com/AnkitShukla-arch/AnkitShukla-arch/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contribution Graph" width="90%">
+  <img src="./profile-3d-contrib/profile-quantum-blue.svg" width="700">
 </p>
 
 ---
