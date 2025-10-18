@@ -168,7 +168,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/preview/heartbeat-preview.png" alt="Heartbeat Graph" width="800">
+  <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/preview/heartbeat-preview.png" alt="Heartbeat Preview" width="800">
 </p>
 
 ---
