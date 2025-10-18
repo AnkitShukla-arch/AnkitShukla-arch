@@ -158,7 +158,6 @@
 
 ### 🧱 3D Contribution Graph
 
-### 🧊 3D Contribution Graph
 <p align="center">
   <img src="./profile-3d-contrib/profile-green.svg" width="700">
 </p>
