@@ -168,6 +168,9 @@
 
 ---
 
+<img src="/github-metrics.svg" alt="Metrics" width="100%">
+
+
 ```bash
 > System Status: ONLINE
 > Version: 2025.10
