@@ -1,0 +1,53 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily at UTC midnight
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate GitHub Metrics SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: "AnkitShukla-arch"
+          filename: "github-metrics.svg"
+          template: "classic"
+          base: "header, activity, community, repositories, metadata"
+
+          # Contribution calendar (3D / isocalendar)
+          plugin_isocalendar: "yes"
+          plugin_isocalendar_duration: "full-year"
+          plugin_isocalendar_colors: "#20FF20,#00CC66,#007744"
+
+          # calendar plugin (multi-year)
+          plugin_calendar: "yes"
+          plugin_calendar_limit: "8"
+          plugin_calendar_colors: "#00FF88,#00CC77,#009966,#006644,#003322"
+
+          # Display top languages
+          plugin_languages: "yes"
+          plugin_languages_details: "bytes-size, percentage"
+          plugin_languages_limit: "10"
+
+          # Enable contribution-overlay text (I ❤️ YOU)
+          plugin_contrib: "yes"
+          plugin_contrib_sections: "commits"
+          plugin_contrib_text: "I ❤️ YOU"
+          plugin_contrib_colors: "green,lightgreen,white"
+
+          # Other visuals
+          plugin_achievements: "yes"
+          plugin_habits: "yes"
+          plugin_stargazers: "yes"
+          config_timezone: "Asia/Kolkata"
