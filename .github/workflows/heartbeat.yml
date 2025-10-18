@@ -26,18 +26,24 @@ jobs:
 
       - name: Generate Heartbeat ASCII
         run: |
-          cd gitfiti
-          echo "__  __     __    __     ______   __  __     __     ______     ______" > heartbeat.txt
-          echo "/\ \/ /    /\ \"-./  \   /\  ___\ /\ \/\ \   /\ \   /\  ___\   /\  == \ " >> heartbeat.txt
-          echo "\ \  _\"-.  \ \ \-./\ \  \ \  __\ \ \ \_\ \  \ \ \  \ \  __\   \ \  __< " >> heartbeat.txt
-          echo " \ \_\ \_\  \ \_\ \ \_\  \ \_\    \ \_____\  \ \_\  \ \_____\  \ \_\ \_\ " >> heartbeat.txt
-          echo "  \/_/\/_/   \/_/  \/_/   \/_/     \/_____/   \/_/   \/_____/   \/_/ /_/ " >> heartbeat.txt
-
-      - name: Generate Graph Preview
-        run: |
           mkdir -p preview
           cd gitfiti
-          python3 gitfiti.py --message-file heartbeat.txt --years 3 --output ../preview/heartbeat-preview.png
+          echo "_ __  _____ __  _" > heartbeat.txt
+          echo "____ _(_) /_/ __(_) /_(_)" >> heartbeat.txt
+          echo "/ __ \`/ / __/ /_/ / __/ /" >> heartbeat.txt
+          echo "/ /_/ / / /_/ __/ / /_/ /" >> heartbeat.txt
+          echo "\\__, /_/\\__/_/ /_/\\__/_/" >> heartbeat.txt
+          echo "/____/" >> heartbeat.txt
+
+      - name: Generate Graph Automatically
+        run: |
+          cd gitfiti
+          yes "" | python3 gitfiti.py \
+            --message-file heartbeat.txt \
+            --years 2 \
+            --color "#39ff14" \
+            --background "#0A0F17" \
+            --output ../preview/heartbeat-preview.png
 
       - name: Commit & Push Preview
         uses: EndBug/add-and-commit@v9
