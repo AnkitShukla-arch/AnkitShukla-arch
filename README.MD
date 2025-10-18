@@ -1,12 +1,3 @@
-<style>
-  a img {
-    transition: transform 0.25s ease, filter 0.25s ease;
-  }
-  a img:hover {
-    transform: scale(1.08);
-    filter: drop-shadow(0 0 12px #00BFFF);
-  }
-</style>
 
 
 <p align="center">
@@ -93,6 +84,16 @@
 ---
 
 ### 🏅 Certifications
+
+<style>
+  a img {
+    transition: transform 0.25s ease, filter 0.25s ease;
+  }
+  a img:hover {
+    transform: scale(1.08);
+    filter: drop-shadow(0 0 12px #00BFFF);
+  }
+</style>
 
 <p align="center">
   <a href="https://www.credly.com/badges/c97749f8-ac8e-4b6d-9845-0c5d36cc691e" target="_blank">
