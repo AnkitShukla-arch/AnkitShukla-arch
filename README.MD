@@ -167,7 +167,9 @@
 
 ---
 
-![Heartbeat Preview](https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/preview/heartbeat-preview.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/preview/heartbeat-preview.png" alt="Heartbeat Graph" width="800">
+</p>
 
 ---
 
