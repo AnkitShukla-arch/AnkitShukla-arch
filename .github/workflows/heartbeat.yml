@@ -8,14 +8,15 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
-          node-version: 18
+          python-version: '3.x'
 
       - name: Install gitfiti
         run: |
@@ -26,19 +27,17 @@ jobs:
       - name: Generate Heartbeat ASCII
         run: |
           cd gitfiti
-          cat << 'EOF' > heartbeat.txt
-          __  __     __    __     ______   __  __     __     ______     ______    
-         /\ \/ /    /\ "-./  \   /\  ___\ /\ \/\ \   /\ \   /\  ___\   /\  == \   
-         \ \  _"-.  \ \ \-./\ \  \ \  __\ \ \ \_\ \  \ \ \  \ \  __\   \ \  __<   
-          \ \_\ \_\  \ \_\ \ \_\  \ \_\    \ \_____\  \ \_\  \ \_____\  \ \_\ \_\ 
-           \/_/\/_/   \/_/  \/_/   \/_/     \/_____/   \/_/   \/_____/   \/_/ /_/ 
-          EOF
+          echo "__  __     __    __     ______   __  __     __     ______     ______" > heartbeat.txt
+          echo "/\ \/ /    /\ \"-./  \   /\  ___\ /\ \/\ \   /\ \   /\  ___\   /\  == \ " >> heartbeat.txt
+          echo "\ \  _\"-.  \ \ \-./\ \  \ \  __\ \ \ \_\ \  \ \ \  \ \  __\   \ \  __< " >> heartbeat.txt
+          echo " \ \_\ \_\  \ \_\ \ \_\  \ \_\    \ \_____\  \ \_\  \ \_____\  \ \_\ \_\ " >> heartbeat.txt
+          echo "  \/_/\/_/   \/_/  \/_/   \/_/     \/_____/   \/_/   \/_____/   \/_/ /_/ " >> heartbeat.txt
 
       - name: Generate Graph Preview
         run: |
           mkdir -p preview
           cd gitfiti
-          python3 gitfiti.py --message-file heartbeat.txt --years 5 --output ../preview/heartbeat-preview.png
+          python3 gitfiti.py --message-file heartbeat.txt --years 3 --output ../preview/heartbeat-preview.png
 
       - name: Commit & Push Preview
         uses: EndBug/add-and-commit@v9
