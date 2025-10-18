@@ -174,7 +174,7 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AnkitShukla-arch&color=00BFFF&style=flat-square">
+  <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/preview/heartbeat-preview.png" alt="Heartbeat Graph" width="800">
 </p>
 
 ---
