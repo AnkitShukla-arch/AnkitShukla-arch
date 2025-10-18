@@ -1,57 +1,73 @@
 name: Metrics
+
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  schedule:
+    - cron: "0 0 * * *" # Run daily at midnight
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+  push:
+    branches: ["main", "master"]
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Generate GitHub Metrics SVG
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: BEPb
-          config_timezone: Europe/Minsk
-#          config_display: columns  # отображать информацию по колонкам
+          user: AnkitShukla-arch
+          config_timezone: Asia/Kolkata
           committer_message: "chore: update metrics"
           template: classic
-          base: header, activity, community, repositories, metadata  # базовый контент (информация о пользователе)
-          plugin_introduction: yes  # общая информация о аккаунте
-#          plugin_sponsors: yes
+          base: header, activity, community, repositories, metadata
 
-          plugin_isocalendar: yes  # 3д изокалендарь
-          plugin_isocalendar_duration: full-year  # отображает активность за полный год
+          # 🌈 Enable detailed yearly contribution calendar
+          plugin_calendar: yes
+          plugin_calendar_limit: 8
+          plugin_calendar_colors: "#00FF88", "#00CC77", "#009966", "#006644", "#003322"
 
-          plugin_languages: yes  # отображение применяемых языков программирования
-          plugin_languages_details: bytes-size, percentage  # дополнительная информация о коде размер и процент
+          # 🧩 Enable 3D isometric contribution calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_colors: "#20FF20", "#00CC66", "#007744"
 
+          # 📊 Language usage and contribution info
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 10
+
+          # 🏆 Achievements section
           plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_threshold: X
 
-          plugin_achievements_threshold: X  # (покажет фишки достижений которые еще не разблокированы)
-          plugin_achievements_display: detailed  # детальное описание фишек достижений
+          # 💫 Developer habits visualization
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
 
-          plugin_calendar: yes  # отображает активность по годам от текущего и далее
-          plugin_calendar_limit: 11 # отображает активность за столько лет
+          # 🛰️ 3D Skyline visualization (like BEPb)
+          plugin_skyline: yes
+          plugin_skyline_year: 2023
+          plugin_skyline_frames: 120
+          plugin_skyline_quality: 1
+          plugin_skyline_settings: "color: dark; transparency: true"
 
-          plugin_habits: yes  # активность за сутки и неделю
-          plugin_habits_facts: yes  # отображает анализ вашей активность за неделю
-          plugin_habits_charts: yes  # отображает характеристики
+          # ⭐ Stargazer stats
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: chartist
 
-          plugin_licenses: yes  # информация о лицензиях
-          plugin_licenses_setup: npm ci  # подробная информация о применяемых лицензиях
-
-          plugin_skyline: yes  # плагин 3д активности скайлайн
-          plugin_skyline_year: 2022 # за какой год
-          plugin_skyline_frames: 120  # количество кадров
-          plugin_skyline_quality: 1  # качество 1 - лучшее
-
-          plugin_stargazers: yes  # активность за месяц
-          plugin_stargazers_charts_type: chartist  # тип активности - плавные линии
-
-          plugin_support: yes  # плагин поддержки
-
-          plugin_topics: yes  # плагин ипсользуемых тем
+          # 🧩 Support and topics
+          plugin_support: yes
+          plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
+
+          # ❤️ Custom “I LOVE YOU” message overlay (ASCII palette)
+          plugin_introduction: yes
+          config_order: base.header, plugin_isocalendar, plugin_calendar, base.activity
+          plugin_introduction_title: "💚 I ❤️ YOU 💚"
+          plugin_introduction_text: |
+            Personalized 3D Contribution Calendar — Painted with 💚, Inspired by BEPb.
+            Includes heartbeat animation and full-year contribution heatmap.
