@@ -146,6 +146,24 @@
 
 ---
 
+---
+
+### 📊 GitHub Contribution Metrics
+
+<p align="center">
+  <img src="https://github.com/AnkitShukla-arch/AnkitShukla-arch/blob/main/github-metrics.svg" alt="GitHub Metrics" width="85%">
+</p>
+
+---
+
+### 🧱 3D Contribution Graph
+
+<p align="center">
+  <img src="https://github.com/AnkitShukla-arch/AnkitShukla-arch/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contribution Graph" width="90%">
+</p>
+
+---
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=AnkitShukla-arch&color=00BFFF&style=flat-square">
 </p>
