@@ -83,8 +83,6 @@
 
 ---
 
-### 🏅 Certifications
-
 ### 🏅 Certifications  
 
 <p align="center">
