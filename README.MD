@@ -167,9 +167,8 @@
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/preview/heartbeat-preview.png" width="800">
-</p>
+### ❤️ Heartbeat Contribution Preview
+<img src="https://raw.githubusercontent.com/<AnkitShukla-arch>/<AnkitShukla-arch>/main/preview/heartbeat-preview.png" width="800" alt="Heartbeat Contribution Graph" />
 
 ---
 
