@@ -83,35 +83,36 @@
 
 ---
 
-### 🏅 Certifications  
+### 🏅 Certifications
 
 <p align="center">
   <a href="https://www.credly.com/badges/your-data-science-orientation" target="_blank">
-    <img src="./data-scientist-orientation.png" width="120" style="border-radius:10px; margin:5px;">
+    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/data-scientist-orientation.png" width="120" style="border-radius:10px; margin:6px;">
   </a>
   <a href="https://www.credly.com/badges/your-python-ai" target="_blank">
-    <img src="./python-ai.png" width="120" style="border-radius:10px; margin:5px;">
+    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/python-ai.png" width="120" style="border-radius:10px; margin:6px;">
   </a>
   <a href="https://www.credly.com/badges/your-data-science-methodology" target="_blank">
-    <img src="./data-science-methodology.png" width="120" style="border-radius:10px; margin:5px;">
+    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/data-science-methodology.png" width="120" style="border-radius:10px; margin:6px;">
   </a>
   <a href="https://www.credly.com/badges/your-tools-for-data-science" target="_blank">
-    <img src="./tools-for-data-science.png" width="120" style="border-radius:10px; margin:5px;">
+    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/tools-for-data-science.png" width="120" style="border-radius:10px; margin:6px;">
   </a>
   <a href="https://www.credly.com/badges/your-python-project" target="_blank">
-    <img src="./python-project.png" width="120" style="border-radius:10px; margin:5px;">
+    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/python-project.png" width="120" style="border-radius:10px; margin:6px;">
   </a>
   <a href="https://www.credly.com/badges/your-sql-data-science" target="_blank">
-    <img src="./sql-data-science.png" width="120" style="border-radius:10px; margin:5px;">
+    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/sql-data-science.png" width="120" style="border-radius:10px; margin:6px;">
   </a>
   <a href="https://www.credly.com/badges/your-data-analysis-python" target="_blank">
-    <img src="./data-analysis-python.png" width="120" style="border-radius:10px; margin:5px;">
+    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/data-analysis-python.png" width="120" style="border-radius:10px; margin:6px;">
   </a>
 </p>
 
 <p align="center">
   <i>Click any certificate to verify on Credly • IBM & Coursera Certified ⚡</i>
 </p>
+
 
 ---
 
