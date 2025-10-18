@@ -1,18 +1,43 @@
-name: GitHub Metrics
+name: Metrics
+
 on:
-  schedule: [{cron: "0 0 * * *"}]
+  schedule:
+    - cron: "0 0 * * *"   # Runs once a day
   workflow_dispatch:
-permissions:
-  contents: write
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Generate GitHub metrics
+      - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
+          # --- Required token ---
           token: ${{ secrets.METRICS_TOKEN }}
+
+          # --- Basic setup ---
           user: AnkitShukla-arch
           template: classic
           base: header, activity, community, repositories, metadata
+
+          # --- Contribution calendar (the main graph) ---
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_colors: green
+
+          # --- Heartbeat / custom text pattern effect ---
+          plugin_contrib: yes
+          plugin_contrib_sections: commits
+          plugin_contrib_text: "I ❤️ YOU"
+          plugin_contrib_colors: "green,lightgreen,white"
+
+          # --- Stargazers (optional for extra charts) ---
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: classic
+
+          # --- General visual style ---
           config_timezone: Asia/Kolkata
+          config_order: base.header, base.activity+community, base.repositories, base.metadata
