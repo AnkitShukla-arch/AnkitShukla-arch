@@ -83,35 +83,62 @@
 
 ---
 
-### 🏅 Certifications
+<h3 align="center">🏅 Certifications</h3>
 
 <p align="center">
-  <a href="https://www.credly.com/badges/your-data-science-orientation" target="_blank">
-    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/data-scientist-orientation.png" width="120" style="border-radius:10px; margin:6px;">
-  </a>
-  <a href="https://www.credly.com/badges/your-python-ai" target="_blank">
-    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/python-ai.png" width="120" style="border-radius:10px; margin:6px;">
-  </a>
-  <a href="https://www.credly.com/badges/your-data-science-methodology" target="_blank">
-    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/data-science-methodology.png" width="120" style="border-radius:10px; margin:6px;">
-  </a>
-  <a href="https://www.credly.com/badges/your-tools-for-data-science" target="_blank">
-    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/tools-for-data-science.png" width="120" style="border-radius:10px; margin:6px;">
-  </a>
-  <a href="https://www.credly.com/badges/your-python-project" target="_blank">
-    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/python-project.png" width="120" style="border-radius:10px; margin:6px;">
-  </a>
-  <a href="https://www.credly.com/badges/your-sql-data-science" target="_blank">
-    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/sql-data-science.png" width="120" style="border-radius:10px; margin:6px;">
-  </a>
-  <a href="https://www.credly.com/badges/your-data-analysis-python" target="_blank">
-    <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/data-analysis-python.png" width="120" style="border-radius:10px; margin:6px;">
-  </a>
+  <i>Click any certificate to verify on <b>Credly</b> • IBM & Coursera Certified ⚡</i>
 </p>
 
-<p align="center">
-  <i>Click any certificate to verify on Credly • IBM & Coursera Certified ⚡</i>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="200">
+      <a href="https://www.credly.com/badges/c97749f8-ac8e-4b6d-9845-0c5d36cc691e" target="_blank">
+        <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/data-scientist-orientation.png" width="100"><br>
+        <sub><b>Data Science Orientation</b></sub>
+      </a>
+    </td>
+    <td align="center" width="200">
+      <a href="https://www.credly.com/badges/34c3bdd2-b2b0-4d28-9b71-9a2503363092" target="_blank">
+        <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/python-ai.png" width="100"><br>
+        <sub><b>Python for Data Science & AI</b></sub>
+      </a>
+    </td>
+    <td align="center" width="200">
+      <a href="https://www.credly.com/badges/9082091e-6d39-4785-b145-332d96b0f0bd" target="_blank">
+        <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/data-science-methodology.png" width="100"><br>
+        <sub><b>Data Science Methodology</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.credly.com/badges/b0cc7f4d-7509-4a61-86fc-a141d2b1432c" target="_blank">
+        <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/tools-for-data-science.png" width="100"><br>
+        <sub><b>Tools for Data Science</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.credly.com/badges/337431c9-07fd-4b15-a939-b9ec231aab99" target="_blank">
+        <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/python-project.png" width="100"><br>
+        <sub><b>Python Project for Data Science</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.credly.com/badges/89e8f544-684e-4885-b1ec-ef53ebf6726a" target="_blank">
+        <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/sql-data-science.png" width="100"><br>
+        <sub><b>Databases & SQL for Data Science</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.credly.com/badges/d4f26717-6d8a-49ce-9974-c950f1b0acda" target="_blank">
+        <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/data-analysis-python.png" width="100"><br>
+        <sub><b>Data Analysis with Python</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 
 ---
