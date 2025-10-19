@@ -158,7 +158,9 @@
 
 ---
 
+![Metrics](./github-metrics.svg)
 
+---
 
 ```bash
 > System Status: ONLINE
