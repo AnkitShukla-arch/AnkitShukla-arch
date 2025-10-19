@@ -158,9 +158,6 @@
 
 ---
 
-<p align="center">
-  <img src="https://github.com/AnkitShukla-arch/AnkitShukla-arch/blob/main/github-metrics.svg" alt="GitHub Metrics" width="90%">
-</p>
 
 
 ```bash
