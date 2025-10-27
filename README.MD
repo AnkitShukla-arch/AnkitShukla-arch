@@ -158,7 +158,7 @@
 
 ---
 
-![Metrics](./github-metrics.svg)
+![GitHub Metrics](github-metrics.svg)
 
 ---
 
