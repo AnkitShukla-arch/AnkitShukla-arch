@@ -1,0 +1,45 @@
+name: Heartbeat Palette
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Run daily
+  workflow_dispatch:
+
+jobs:
+  build-heartbeat:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Clone Gitfiti
+        run: |
+          git clone https://github.com/gelstudios/gitfiti.git
+          cd gitfiti
+          echo "Creating heartbeat pattern..."
+          cat > heartbeat.txt <<'EOF'
+ __  __     ______     ______     ______     ______     ______    
+/\ \/\ \   /\  == \   /\  == \   /\  __ \   /\  __ \   /\  == \   
+\ \ \_\ \  \ \  __<   \ \  __<   \ \  __ \  \ \ \/\ \  \ \  __<   
+ \ \_____\  \ \_\ \_\  \ \_\ \_\  \ \_\ \_\  \ \_____\  \ \_\ \_\ 
+  \/_____/   \/_/ /_/   \/_/ /_/   \/_/\/_/   \/_____/   \/_/ /_/ 
+EOF
+
+      - name: Generate Heartbeat Contribution Graph
+        run: |
+          cd gitfiti
+          python3 gitfiti.py --message "Heartbeat ❤️" --file heartbeat.txt --name "LeeChristmas"
+
+      - name: Commit and Push Heartbeat Preview
+        run: |
+          mkdir -p preview
+          mv gitfiti/output.png preview/heartbeat-preview.png
+          git add preview/heartbeat-preview.png || echo "No file to add"
+          git commit -m "Add Heartbeat Preview ❤️" || echo "No changes"
+          git push
