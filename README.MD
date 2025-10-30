@@ -173,13 +173,3 @@
 > System Status: ONLINE
 > Version: 2025.10
 > Quantum Engine: ACTIVE ⚡
-
----
-
-### 📡 Connect With Me
-<p align="center">
-  <a href="mailto:monishukla727538@gmail.com"><img src="https://img.shields.io/badge/Email-0A0F17?style=for-the-badge&logo=gmail&logoColor=00BFFF"></a>
-  <a href="https://linkedin.com/in/ankit-shukla"><img src="https://img.shields.io/badge/LinkedIn-0A0F17?style=for-the-badge&logo=linkedin&logoColor=00BFFF"></a>
-  <a href="https://github.com/AnkitShukla-arch"><img src="https://img.shields.io/badge/GitHub-0A0F17?style=for-the-badge&logo=github&logoColor=00BFFF"></a>
-</p>
-
