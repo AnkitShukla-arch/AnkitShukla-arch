@@ -16,6 +16,17 @@
 
 ---
 
+### 🧠 Daily AI Insight
+<p align="center">
+  <img src="https://readme-quote-generator.vercel.app/api?username=AnkitShukla-arch" alt="Daily AI Quote" />
+</p>
+
+> *(auto-updates every day — powered by GitHub Actions)*
+
+
+---
+
+
 ### 🧬 System Boot
 > ```
 > Initializing Quantum Core...
