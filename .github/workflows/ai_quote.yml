@@ -2,88 +2,107 @@ name: 🧠 Daily Animated AI Quote Update
 
 on:
   schedule:
-    - cron: "0 6 * * *" # runs daily at 6 AM UTC
+    - cron: "0 6 * * *" # every day at 06:00 UTC
   workflow_dispatch:
 
 jobs:
   update-quote:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Generate & insert animated quote
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Write update script (safe)
         run: |
-          set -euo pipefail
+          cat > update_quote.py <<'PY'
+          #!/usr/bin/env python3
+          import os, random, urllib.parse, sys
 
-          # Array of motivational AI/data quotes
-          QUOTES=(
-            "Data is the new oil — pipelines are the refineries."
-            "Automation is the present accelerated."
-            "Every dataset hides a story — engineering reveals it."
-            "Think in systems, act in data."
-            "AI doesn’t replace engineers — it upgrades them."
-            "From chaos to insight — one pipeline at a time."
-            "Smart systems aren’t built — they’re engineered."
+          QUOTES = [
+            "Data is the new oil — pipelines are the refineries.",
+            "Automation is the present accelerated.",
+            "Every dataset hides a story — engineering reveals it.",
+            "Think in systems, act in data.",
+            "AI doesn’t replace engineers — it upgrades them.",
+            "From chaos to insight — one pipeline at a time.",
+            "Smart systems aren’t built — they’re engineered.",
             "Data speaks only when engineered to."
-          )
+          ]
 
-          RANDOM_QUOTE="${QUOTES[$RANDOM % ${#QUOTES[@]}]}"
-          echo "Selected quote: $RANDOM_QUOTE"
+          quote = random.choice(QUOTES)
 
-          # If README doesn’t exist, create it
-          if ! ls -1 | grep -iq '^readme'; then
-            echo "No README found, creating README.md"
-            echo "# Hi — I'm Lee Christmas" > README.md
-            echo "" >> README.md
-            echo "### 🧠 Daily AI Insight" >> README.md
-            echo "<!--QUOTE-START-->" >> README.md
-            echo "<!--QUOTE-END-->" >> README.md
-            echo "" >> README.md
-            echo "> *(auto-updates every day — powered by GitHub Actions)*" >> README.md
-          fi
+          # find README file case-insensitively; if none, create README.md
+          readme_file = None
+          for f in os.listdir('.'):
+              if f.lower().startswith('readme'):
+                  readme_file = f
+                  break
 
-          README_FILE=$(ls -1 | grep -i '^readme' | head -n1)
+          if not readme_file:
+              readme_file = 'README.md'
+              with open(readme_file, 'w', encoding='utf-8') as fh:
+                  fh.write("# Hi — I'm AnkitShukla-arch\n\n")
+                  fh.write("This README is automatically updated with a daily AI insight.\n\n")
 
-          # Encode quote safely for SVG
-          ENCODED=$(python3 - <<PY
-import urllib.parse,sys
-s="${RANDOM_QUOTE}"
-print(urllib.parse.quote_plus(s))
-PY
-)
+          # prepare SVG typing img (URL-encode quote)
+          encoded = urllib.parse.quote_plus(quote)
+          svg_line = f'<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Consolas&weight=700&size=24&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines={encoded}" alt="AI Quote Animation"></p>'
 
-          SVG_LINE="<p align=\"center\"><img src=\"https://readme-typing-svg.herokuapp.com?font=Consolas&weight=700&size=24&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=${ENCODED}\" alt=\"AI Quote Animation\"></p>"
+          START = "<!--QUOTE-START-->"
+          END = "<!--QUOTE-END-->"
 
-          # Replace quote block
-          python3 - "$README_FILE" "$SVG_LINE" <<'PYCODE'
-import sys
-path, new = sys.argv[1], sys.argv[2]
-text=open(path,encoding="utf-8").read()
-start,end="<!--QUOTE-START-->","<!--QUOTE-END-->"
-if start in text and end in text:
-    pre,rest=text.split(start,1)
-    _,post=rest.split(end,1)
-    new_text=pre+start+"\n"+new+"\n"+end+post
-else:
-    new_text=text+"\n\n### 🧠 Daily AI Insight\n"+start+"\n"+new+"\n"+end+"\n"
-if new_text!=text:
-    open(path,"w",encoding="utf-8").write(new_text)
-    print("Updated README with new quote.")
-else:
-    print("No changes needed.")
-PYCODE
+          with open(readme_file, 'r', encoding='utf-8') as fh:
+              content = fh.read()
 
-      - name: Commit and push changes
+          if START in content and END in content:
+              pre, rest = content.split(START, 1)
+              _, post = rest.split(END, 1)
+              new_content = pre + START + "\n" + svg_line + "\n" + END + post
+          else:
+              # insert block after first top-level header (# ) if present, else append
+              lines = content.splitlines()
+              insert_at = 0
+              for i, line in enumerate(lines):
+                  if line.strip().startswith("# "):
+                      insert_at = i + 1
+                      break
+              block = "\n\n### 🧠 Daily AI Insight\n" + START + "\n" + svg_line + "\n" + END + "\n\n> *(auto-updates every day — powered by GitHub Actions)*\n"
+              new_content = "\n".join(lines[:insert_at]) + block + "\n".join(lines[insert_at:])
+
+          if new_content != content:
+              with open(readme_file, 'w', encoding='utf-8') as fh:
+                  fh.write(new_content)
+              print("README updated with new quote.")
+              sys.exit(0)
+          else:
+              print("No change to README.")
+              sys.exit(0)
+          PY
+
+      - name: Run update script
+        run: |
+          python3 update_quote.py
+
+      - name: Commit and push (if changed)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet; then
-            echo "No changes to commit."
-          else
-            git add $(ls -1 | grep -i '^readme' | head -n1)
-            git commit -m "🧠 Update daily AI insight"
+          # detect any changes to a README-like file
+          TARGET=$(ls -1 | grep -i '^readme' | head -n1 || true)
+          if [ -n "$TARGET" ] && ! git diff --quiet -- "$TARGET"; then
+            git add "$TARGET"
+            git commit -m "🧠 Daily Animated AI Quote Update" || echo "Commit failed (maybe no changes)"
             git push
+          else
+            echo "No README changes to commit."
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
