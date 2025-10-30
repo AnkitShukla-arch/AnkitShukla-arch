@@ -50,7 +50,7 @@
 </p>
 
 
-
+---
 
 
 ### ⚙️ Tech Arsenal
@@ -97,7 +97,7 @@
 </tr>
 </table>
 
-
+---
 
 
 ## 🏅 Certifications & Badges
@@ -146,7 +146,7 @@
 </table>
 
 
-
+---
 
 
 ### 🐍 System Processes
@@ -154,7 +154,7 @@
   <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/output/github-contribution-grid-snake-dark.svg" alt="snake animation">
 </p>
 
-
+---
 
 
 ### 📡 Connect With Me
@@ -164,7 +164,7 @@
   <a href="https://github.com/AnkitShukla-arch"><img src="https://img.shields.io/badge/GitHub-0A0F17?style=for-the-badge&logo=github&logoColor=00BFFF"></a>
 </p>
 
-
+---
 
 
 ### 🧱 3D Contribution Graph
@@ -173,11 +173,11 @@
   <img src="./profile-3d-contrib/profile-green.svg" width="700">
 </p>
 
-
+---
 
 ![GitHub Metrics](github-metrics.svg)
 
-
+---
 
 ```bash
 > System Status: ONLINE
