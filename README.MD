@@ -51,7 +51,7 @@
 
 
 
----
+
 
 ### ⚙️ Tech Arsenal
 <p align="center">
@@ -67,7 +67,7 @@
 </p>
 
 
----
+
 
 ### 💼 Featured Projects
 <table align="center">
@@ -98,7 +98,7 @@
 </table>
 
 
----
+
 
 ## 🏅 Certifications & Badges
 
@@ -147,7 +147,7 @@
 
 
 
----
+
 
 ### 🐍 System Processes
 <p align="center">
@@ -155,7 +155,7 @@
 </p>
 
 
----
+
 
 ### 📡 Connect With Me
 <p align="center">
@@ -164,7 +164,7 @@
   <a href="https://github.com/AnkitShukla-arch"><img src="https://img.shields.io/badge/GitHub-0A0F17?style=for-the-badge&logo=github&logoColor=00BFFF"></a>
 </p>
 
----
+
 
 
 ### 🧱 3D Contribution Graph
@@ -173,11 +173,11 @@
   <img src="./profile-3d-contrib/profile-green.svg" width="700">
 </p>
 
----
+
 
 ![GitHub Metrics](github-metrics.svg)
 
----
+
 
 ```bash
 > System Status: ONLINE
