@@ -1,17 +1,18 @@
 name: 🧠 Daily AI Quote Update
 on:
   schedule:
-    - cron: "0 6 * * *" # every day at 6 AM
+    - cron: "0 6 * * *" # Runs daily at 6 AM
   workflow_dispatch:
 
 jobs:
   update-quote:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Generate Animated Quote
+        working-directory: ${{ github.workspace }}
         run: |
           QUOTES=(
             "Data is the new oil — pipelines are the refineries."
@@ -25,15 +26,24 @@ jobs:
           )
           RANDOM_QUOTE=${QUOTES[$RANDOM % ${#QUOTES[@]}]}
 
-          # Replace quote block in README
-          awk -v q="$RANDOM_QUOTE" '
-            BEGIN {found=0}
-            /^<!--QUOTE-START-->/ {print; print "<p align=\"center\"><img src=\"https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=" q "\" alt=\"AI Quote Animation\"></p>"; found=1; next}
-            /^<!--QUOTE-END-->/ {found=0}
-            !found
-          ' README.md > temp && mv temp README.md
+          if [ -f "README.md" ]; then
+            awk -v q="$RANDOM_QUOTE" '
+              BEGIN {found=0}
+              /^<!--QUOTE-START-->/ {
+                print;
+                print "<p align=\"center\"><img src=\"https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=" q "\" alt=\"AI Quote Animation\"></p>";
+                found=1; next
+              }
+              /^<!--QUOTE-END-->/ {found=0}
+              !found
+            ' README.md > temp && mv temp README.md
+          else
+            echo "README.md not found!"
+            exit 1
+          fi
 
       - name: Commit and Push Changes
+        working-directory: ${{ github.workspace }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
