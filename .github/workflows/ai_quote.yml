@@ -1,0 +1,35 @@
+name: 🧠 Daily AI Quote Update
+on:
+  schedule:
+    - cron: "0 6 * * *" # Runs daily at 6 AM
+  workflow_dispatch:
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate AI Quote
+        run: |
+          QUOTES=(
+            "Data is the new oil — pipelines are the refineries."
+            "Automation is not the future; it’s the present accelerated."
+            "Every dataset hides a story — engineering reveals it."
+            "Think in systems, act in data."
+            "AI doesn’t replace engineers — it upgrades them."
+            "From chaos to insight — one pipeline at a time."
+          )
+          RANDOM_QUOTE=${QUOTES[$RANDOM % ${#QUOTES[@]}]}
+          echo "> 💡 $RANDOM_QUOTE" > quote.txt
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add quote.txt
+          git commit -m "🧠 Daily AI Quote update"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
