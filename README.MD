@@ -19,7 +19,7 @@
 
 ### 🧠 Daily AI Insight
 <!--QUOTE-START-->
-<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Initializing+AI+core..." alt="AI Quote Animation"></p>
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Consolas&weight=700&size=24&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Data+is+the+new+oil+%E2%80%94+pipelines+are+the+refineries." alt="AI Quote Animation"></p>
 <!--QUOTE-END-->
 
 > *(auto-updates every day — powered by GitHub Actions)*
