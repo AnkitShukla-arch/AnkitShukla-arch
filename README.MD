@@ -16,12 +16,14 @@
 
 ---
 
+
 ### 🧠 Daily AI Insight
-<p align="center">
-  <img src="https://readme-quote-generator.vercel.app/api?username=AnkitShukla-arch" alt="Daily AI Quote" />
-</p>
+<!--QUOTE-START-->
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Initializing+AI+core..." alt="AI Quote Animation"></p>
+<!--QUOTE-END-->
 
 > *(auto-updates every day — powered by GitHub Actions)*
+
 
 
 ---
