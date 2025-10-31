@@ -97,55 +97,79 @@
 
 ## 🏅 Certifications & Badges
 
-<table align="center">
-  <tr>
-    <td align="center">
-        <img src="data-science-orientation.png" width="200px" alt="Certificate 1"/>
-      <br/>
-      <sub><b>Data Science Orientation</b></sub>
-    </td>
-    <td align="center">
-        <img src="python-ai.png" width="200px" alt="Certificate 2"/>
-      <br/>
-      <sub><b>Python for Data Science</b></sub>
-    </td>
-    <td align="center">
-        <img src="data-science-methodology.png" width="200px" alt="Certificate 3"/>
-      <br/>
-      <sub><b>Data Science Methodology</b></sub>
-    </td>
-    <td align="center">
-        <img src="tools-for-data-science.png" width="200px" alt="Certificate 4"/>
-      <br/>
-      <sub><b>Tools for Data Science</b></sub>
-    </td>
-  </tr>
+## 🏅 Certifications & Badges
 
-  <tr>
-    <td align="center">
-        <img src="sql-data-science.png" width="200px" alt="Certificate 5"/>
-      <br/>
-      <sub><b>Databases & SQL</b></sub>
-    </td>
-    <td align="center">
-        <img src="python-project.png" width="200px" alt="Certificate 6"/>
-      <br/>
-      <sub><b>Applied Data Science</b></sub>
-    </td>
-    <td align="center">
-        <img src="data-analysis-python.png" width="200px" alt="Certificate 7"/>
-      <br/>
-      <sub><b>Data Analysis with Python</b></sub>
-    </td>
-    <td align="center">
-      <a href="https://www.credly.com/badges/e7fb6cce-7915-4e8f-90ba-56285c1f5ab8" target="_blank">
-        <img src="data-visualization-python.png" width="200px" alt="Certificate 8"/>
-      </a>
-      <br/>
-      <sub><b>Data Visualization with Python</b></sub>
-    </td>
-  </tr>
-</table>
+<style>
+  .cert-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .cert {
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .cert img {
+    width: 200px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .cert:hover img {
+    transform: scale(1.07);
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.7);
+  }
+  .cert sub {
+    display: block;
+    margin-top: 5px;
+    color: #00bfff;
+    font-weight: 600;
+  }
+</style>
+
+<div class="cert-grid">
+  <div class="cert">
+    <img src="data-science-orientation.png" alt="Certificate 1"/>
+    <sub>Data Science Orientation</sub>
+  </div>
+
+  <div class="cert">
+    <img src="python-ai.png" alt="Certificate 2"/>
+    <sub>Python for Data Science</sub>
+  </div>
+
+  <div class="cert">
+    <img src="data-science-methodology.png" alt="Certificate 3"/>
+    <sub>Data Science Methodology</sub>
+  </div>
+
+  <div class="cert">
+    <img src="tools-for-data-science.png" alt="Certificate 4"/>
+    <sub>Tools for Data Science</sub>
+  </div>
+
+  <div class="cert">
+    <img src="sql-data-science.png" alt="Certificate 5"/>
+    <sub>Databases & SQL</sub>
+  </div>
+
+  <div class="cert">
+    <img src="python-project.png" alt="Certificate 6"/>
+    <sub>Applied Data Science</sub>
+  </div>
+
+  <div class="cert">
+    <img src="data-analysis-python.png" alt="Certificate 7"/>
+    <sub>Data Analysis with Python</sub>
+  </div>
+
+  <div class="cert">
+    <a href="https://www.credly.com/badges/e7fb6cce-7915-4e8f-90ba-56285c1f5ab8" target="_blank">
+      <img src="data-visualization-python.png" alt="Certificate 8"/>
+    </a>
+    <sub>Data Visualization with Python</sub>
+  </div>
+</div>
 
 ---
 
