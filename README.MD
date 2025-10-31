@@ -95,53 +95,49 @@
 
 ## 🏅 Certifications & Badges
 
-## 🏅 Certifications & Badges
-
 <table align="center">
   <tr>
     <td align="center">
         <img src="data-science-orientation.png" width="200px" alt="Certificate 1"/>
-      </a>
       <br/>
       <sub><b>Data Science Orientation</b></sub>
     </td>
     <td align="center">
         <img src="python-ai.png" width="200px" alt="Certificate 2"/>
-      </a>
       <br/>
       <sub><b>Python for Data Science</b></sub>
     </td>
     <td align="center">
         <img src="data-science-methodology.png" width="200px" alt="Certificate 3"/>
-      </a>
       <br/>
       <sub><b>Data Science Methodology</b></sub>
     </td>
-  </tr>
-  <tr>
     <td align="center">
-        <img src="sql-data-science.png" width="200px" alt="Certificate 4"/>
-      </a>
-      <br/>
-      <sub><b>Databases & SQL</b></sub>
-    </td>
-    <td align="center">
-        <img src="python-project.png" width="200px" alt="Certificate 5"/>
-      </a>
-      <br/>
-      <sub><b>Applied Data Science</b></sub>
-    </td>
-    <td align="center">
-        <img src="tools-for-data-science.png" width="200px" alt="Certificate 6"/>
-      </a>
+        <img src="tools-for-data-science.png" width="200px" alt="Certificate 4"/>
       <br/>
       <sub><b>Tools for Data Science</b></sub>
     </td>
   </tr>
+
   <tr>
     <td align="center">
+        <img src="sql-data-science.png" width="200px" alt="Certificate 5"/>
+      <br/>
+      <sub><b>Databases & SQL</b></sub>
+    </td>
+    <td align="center">
+        <img src="python-project.png" width="200px" alt="Certificate 6"/>
+      <br/>
+      <sub><b>Applied Data Science</b></sub>
+    </td>
+    <td align="center">
+        <img src="data-analysis-python.png" width="200px" alt="Certificate 7"/>
+      <br/>
+      <sub><b>Data Analysis with Python</b></sub>
+    </td>
+    <td align="center">
       <a href="https://www.credly.com/badges/e7fb6cce-7915-4e8f-90ba-56285c1f5ab8" target="_blank">
-        <img src="data-visualization-python.png" width="200px" alt="Certificate 7"/>
+        <img src="data-visualization-python.png" width="200px" alt="Certificate 8"/>
       </a>
       <br/>
       <sub><b>Data Visualization with Python</b></sub>
