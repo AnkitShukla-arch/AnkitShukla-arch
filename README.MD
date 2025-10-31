@@ -107,6 +107,14 @@
     <td align="center"><img src="tools-for-data-science.png" width="230px"><br><sub><b>Tools for Data Science</b></sub></td>
   </tr>
 </table>
+<td align="center">
+    <a href="https://www.credly.com/badges/e7fb6cce-7915-4e8f-90ba-56285c1f5ab8" target="_blank">
+        <img src="data-visualization-python.png" width="200px" alt="Data Visualization with Python"/>
+    </a>
+    <br/>
+    <sub><b>Data Visualization with Python</b></sub>
+</td>
+
 
 ---
 
