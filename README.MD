@@ -10,12 +10,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=35&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=1000&lines=Hi,+there!+I'm+Lee+Christmas;A+Data+Enthusiast;+Welcome+To+My+Profile!" alt="Typing SVG">
 </p>
 
-<!-- 🔹 Futuristic Section Titles with Animated Headers -->
-
-<h2 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=800&color=00BFFF&center=true&vCenter=true&width=700&lines=🧬+System+Boot;🧠+System+Activity+—+Current+Operations;⚙️+Tech+Arsenal;💼+Featured+Projects;🏅+Certifications+%26+Badges;🐍+System+Processes;🧱+3D+Contribution+Graph" alt="Animated Section Titles">
-</h2>
-
 
 <h3 align="center" style="font-size:22px;">
   🧠 Data Systems Engineer | AI Infrastructure | Cloud-Native Pipelines
