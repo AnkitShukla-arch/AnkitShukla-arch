@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/quantum-banner.gif" 
        alt="Quantum Banner" 
-       width="100%">
+       width="110%">
 </p>
 
 <p align="center">
