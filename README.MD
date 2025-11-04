@@ -44,7 +44,7 @@
 <h2>🧠 System Activity — Current Operations</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=00BFFF&multiline=true&width=950&height=160&lines=🕵️‍♂️+HoneyPot+▶+DDOS+Attack+Handler+%26+Intrusion+Logger...;🎞️+Movie+Recommender+▶+Hybrid+ML+Recommendation+Engine...;☁️+Data+Pipeline+Automation+▶+ETL+%2B+DataOps+on+AWS...;🔮+LlamaIndex+Pipeline+▶+Context-Aware+AI+Framework...;🚀+CI%2FCD+Pipelines+▶+GitHub+Actions+%26+Workflow+Automation...;✔️+Quantum+Engine+Stable+%7C+Uptime:+427h+)&repeat=True" alt="System Activity Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=00BFFF&multiline=true&width=950&height=160&lines=🕵️‍♂️+HoneyPot+▶+DDOS+Attack+Handler+%26+Intrusion+Logger...;🎞️+Movie+Recommender+▶+Hybrid+ML+Recommendation+Engine...;☁️+Data+Pipeline+Automation+▶+ETL+%2B+DataOps+on+AWS...;🔮+LlamaIndex+Pipeline+▶+Context-Aware+AI+Framework...;🚀+CI%2FCD+Pipelines+▶+GitHub+Actions+%26+Workflow+Automation...;+%7C+Uptime:+427h+)&repeat=True" alt="System Activity Animation">
 </p>
 
 ---
