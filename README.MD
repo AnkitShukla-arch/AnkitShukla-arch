@@ -25,7 +25,7 @@
 <h2>🧠 Daily AI Insight</h2>
 
 <!--QUOTE-START-->
-<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Consolas&weight=700&size=24&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Smart+systems+aren%E2%80%99t+built+%E2%80%94+they%E2%80%99re+engineered." alt="AI Quote Animation"></p>
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Consolas&weight=700&size=24&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=AI+doesn%E2%80%99t+replace+engineers+%E2%80%94+it+upgrades+them." alt="AI Quote Animation"></p>
 <!--QUOTE-END-->
 
 ---
