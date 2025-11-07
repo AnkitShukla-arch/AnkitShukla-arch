@@ -54,9 +54,9 @@
   <!-- GitHub Stats -->
   <img src="https://github-readme-stats.vercel.app/api?username=AnkitShukla-arch&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF&cache_seconds=86400" width="48%">
 
-<p align="center">
-  <img src="assets/streak-stats.png" width="48%">
-</p>
+### 🔥 GitHub Streak
+![GitHub Streak](https://streak-stats.demolab.com?user=AnkitShukla&theme=highcontrast&hide_border=true&cache_seconds=86400)
+
 
 <p align="center">
   <!-- Top Languages -->
