@@ -108,64 +108,60 @@
 
 ---
 
-## 🏅 Certifications & Badges
+## 🥇 Certifications & Badges
 
 <table align="center">
-  <tr>
-    <td align="center">
-        <img src="data-science-orientation.png" width="230px" alt="Certificate 1"/>
-      <br/>
-      <sub><b>Data Science Orientation</b></sub>
-    </td>
-    <td align="center">
-        <img src="python-ai.png" width="230px" alt="Certificate 2"/>
-      <br/>
-      <sub><b>Python for Data Science</b></sub>
-    </td>
-    <td align="center">
-        <img src="data-science-methodology.png" width="230px" alt="Certificate 3"/>
-      <br/>
-      <sub><b>Data Science Methodology</b></sub>
-    </td>
-    <td align="center">
-        <img src="tools-for-data-science.png" width="230px" alt="Certificate 4"/>
-      <br/>
-      <sub><b>Tools for Data Science</b></sub>
-    </td>
-  </tr>
 
-  <tr>
-    <td align="center">
-        <img src="sql-data-science.png" width="230px" alt="Certificate 5"/>
-      <br/>
-      <sub><b>Databases & SQL</b></sub>
-    </td>
-    <td align="center">
-        <img src="python-project.png" width="230px" alt="Certificate 6"/>
-      <br/>
-      <sub><b>Applied Data Science</b></sub>
-    </td>
-    <td align="center">
-        <img src="data-analysis-python.png" width="230px" alt="Certificate 7"/>
-      <br/>
-      <sub><b>Data Analysis with Python</b></sub>
-    </td>
-    <td align="center">
-      <a href="https://www.credly.com/badges/e7fb6cce-7915-4e8f-90ba-56285c1f5ab8" target="_blank">
-        <img src="data-visualization-python.png" width="200px" alt="Certificate 8"/>
-      </a>
-      <br/>
-      <sub><b>Data Visualization with Python</b></sub>
-    </td>
-    <td align="center">
-        <img src="machine-learning-with-python.png" width="230px" alt="Certificate 9"/>
-      <br/>
-      <sub><b>Machine Learning with Python</b></sub>
-    </td>
+<!-- Row 1 -->
+<tr>
+  <td align="center">
+    <img src="data-science-orientation.png" width="230px" alt="Certificate 1"/><br/>
+    <sub><b>Data Science Orientation</b></sub>
+  </td>
+  <td align="center">
+    <img src="python-ai.png" width="230px" alt="Certificate 2"/><br/>
+    <sub><b>Python for Data Science</b></sub>
+  </td>
+  <td align="center">
+    <img src="data-science-methodology.png" width="230px" alt="Certificate 3"/><br/>
+    <sub><b>Data Science Methodology</b></sub>
+  </td>
+  <td align="center">
+    <img src="tools-for-data-science.png" width="230px" alt="Certificate 4"/><br/>
+    <sub><b>Tools for Data Science</b></sub>
+  </td>
+</tr>
 
+<!-- Row 2 -->
+<tr>
+  <td align="center">
+    <img src="sql-data-science.png" width="230px" alt="Certificate 5"/><br/>
+    <sub><b>Databases & SQL</b></sub>
+  </td>
+  <td align="center">
+    <img src="applied-data-science.png" width="230px" alt="Certificate 6"/><br/>
+    <sub><b>Applied Data Science</b></sub>
+  </td>
+  <td align="center">
+    <img src="data-analysis-python.png" width="230px" alt="Certificate 7"/><br/>
+    <sub><b>Data Analysis with Python</b></sub>
+  </td>
+  <td align="center">
+    <img src="data-visualization-python.png" width="230px" alt="Certificate 8"/><br/>
+    <sub><b>Data Visualization with Python</b></sub>
+  </td>
+</tr>
 
-  </tr>
+<!-- Row 3 (last one centered) -->
+<tr>
+  <td align="center" colspan="4">
+    <img src="machine-learning-python.png" width="230px" alt="Certificate 9"/><br/>
+    <sub><b>Machine Learning with Python</b></sub>
+  </td>
+</tr>
+
 </table>
+
 
 ---
 
