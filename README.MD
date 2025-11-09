@@ -139,7 +139,7 @@
     <sub><b>Databases & SQL</b></sub>
   </td>
   <td align="center">
-    <img src="applied-data-science.png" width="230px" alt="Certificate 6"/><br/>
+    <img src="python-project.png" width="230px" alt="Certificate 6"/><br/>
     <sub><b>Applied Data Science</b></sub>
   </td>
   <td align="center">
@@ -155,7 +155,7 @@
 <!-- Row 3 (last one centered) -->
 <tr>
   <td align="center" colspan="4">
-    <img src="machine-learning-python.png" width="230px" alt="Certificate 9"/><br/>
+    <img src="machine-learning-with-python.png" width="230px" alt="Certificate 9"/><br/>
     <sub><b>Machine Learning with Python</b></sub>
   </td>
 </tr>
