@@ -158,7 +158,7 @@
       <sub><b>Data Visualization with Python</b></sub>
     </td>
     <td align="center">
-        <img src="machine-learning-with-python.png" width="230px" alt="Certificate 5"/>
+        <img src="machine-learning-with-python.png" width="230px" alt="Certificate 9"/>
       <br/>
       <sub><b>Machine Learning with Python</b></sub>
     </td>
