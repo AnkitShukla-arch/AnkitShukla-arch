@@ -115,19 +115,19 @@
 <!-- Row 1 -->
 <tr>
   <td align="center">
-    <img src="data-science-orientation.png" width="230px" alt="Certificate 1"/><br/>
+    <img src="data-science-orientation.png" width="250px" alt="Certificate 1"/><br/>
     <sub><b>Data Science Orientation</b></sub>
   </td>
   <td align="center">
-    <img src="python-ai.png" width="230px" alt="Certificate 2"/><br/>
+    <img src="python-ai.png" width="250px" alt="Certificate 2"/><br/>
     <sub><b>Python for Data Science</b></sub>
   </td>
   <td align="center">
-    <img src="data-science-methodology.png" width="230px" alt="Certificate 3"/><br/>
+    <img src="data-science-methodology.png" width="250px" alt="Certificate 3"/><br/>
     <sub><b>Data Science Methodology</b></sub>
   </td>
   <td align="center">
-    <img src="tools-for-data-science.png" width="230px" alt="Certificate 4"/><br/>
+    <img src="tools-for-data-science.png" width="250px" alt="Certificate 4"/><br/>
     <sub><b>Tools for Data Science</b></sub>
   </td>
 </tr>
@@ -135,19 +135,19 @@
 <!-- Row 2 -->
 <tr>
   <td align="center">
-    <img src="sql-data-science.png" width="230px" alt="Certificate 5"/><br/>
+    <img src="sql-data-science.png" width="250px" alt="Certificate 5"/><br/>
     <sub><b>Databases & SQL</b></sub>
   </td>
   <td align="center">
-    <img src="python-project.png" width="230px" alt="Certificate 6"/><br/>
+    <img src="python-project.png" width="250px" alt="Certificate 6"/><br/>
     <sub><b>Applied Data Science</b></sub>
   </td>
   <td align="center">
-    <img src="data-analysis-python.png" width="230px" alt="Certificate 7"/><br/>
+    <img src="data-analysis-python.png" width="250px" alt="Certificate 7"/><br/>
     <sub><b>Data Analysis with Python</b></sub>
   </td>
   <td align="center">
-    <img src="data-visualization-python.png" width="230px" alt="Certificate 8"/><br/>
+    <img src="data-visualization-python.png" width="250px" alt="Certificate 8"/><br/>
     <sub><b>Data Visualization with Python</b></sub>
   </td>
 </tr>
@@ -155,7 +155,7 @@
 <!-- Row 3 (last one centered) -->
 <tr>
   <td align="center" colspan="4">
-    <img src="machine-learning-with-python.png" width="230px" alt="Certificate 9"/><br/>
+    <img src="machine-learning-with-python.png" width="250px" alt="Certificate 9"/><br/>
     <sub><b>Machine Learning with Python</b></sub>
   </td>
 </tr>
