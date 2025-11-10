@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="assets/ai-assistant.gif" width="220px" alt="AI assistant animation">
-</p>
-
-
 ![](Bottom_up.svg)
 <p align="center">
   <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/quantum-banner.gif" 
