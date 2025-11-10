@@ -50,7 +50,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnkitShukla-arch&layout=compact&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF&hide_border=true&langs_count=8" width="60%">
 </p>
 
----
+
 
 
 <h2>⚙️ Tech Arsenal</h2>
@@ -65,7 +65,7 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" width="60" height="60" alt="Matplotlib">
 </p>
 
----
+
 
 <h2>💼 Featured Projects</h2>
 
