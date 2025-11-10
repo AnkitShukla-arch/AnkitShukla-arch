@@ -7,6 +7,11 @@
 </p>
 
 <p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350" alt="Coding gif"/>
+</p>
+
+
+<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=35&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=1000&lines=Hi,+there!+I'm+Lee+Christmas;A+Data+Enthusiast;+Welcome+To+My+Profile!" alt="Typing SVG">
 </p>
 
@@ -28,12 +33,7 @@
 <p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Consolas&weight=700&size=24&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Think+in+systems%2C+act+in+data." alt="AI Quote Animation"></p>
 <!--QUOTE-END-->
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/assets/glow-divider.svg" width="60%">
-</p>
-
-
-
+---
 
 <h2>🧬 System Boot</h2>
 
