@@ -2,6 +2,10 @@
   <img src="https://i.ibb.co/Zz6DYmB/matrix-neon.gif" width="600px" alt="Matrix effect background">
 </p>
 
+<p align="center">
+  <img src="https://i.ibb.co/G3PBK3Q/astronaut.gif" width="240px" alt="Astronaut animation">
+</p>
+
 
 ![](Bottom_up.svg)
 <p align="center">
