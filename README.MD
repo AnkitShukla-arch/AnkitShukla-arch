@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://i.ibb.co/Zz6DYmB/matrix-neon.gif" width="600px" alt="Matrix effect background">
+</p>
+
+
 ![](Bottom_up.svg)
 <p align="center">
   <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/quantum-banner.gif" 
@@ -9,10 +14,6 @@
 </p>
 
 <br>
-
-<p align="center">
-  <img src="https://i.ibb.co/6t3kWjv/cyberpunk-hacker.gif" width="250px" alt="Hacker animation">
-</p>
 
 
 ![](header_.png)
