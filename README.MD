@@ -56,7 +56,7 @@
 <h2>⚙️ Tech Arsenal</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,aws,docker,git,github,vscode,mysql,bash&theme=dark" width="85%"><br><br>
+  <img src="https://skillicons.dev/icons?i=python,aws,docker,git,github,vscode,mysql,bash&theme=dark" width="60%"><br><br>
 
   <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="52" height="52" alt="NumPy">
