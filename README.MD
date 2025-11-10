@@ -6,6 +6,10 @@
        width="110%">
 </p>
 
+<h3 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=00C2CB&center=true&vCenter=true&width=435&lines=Hey+there!+👋;I'm+Ankit+Shukla;AI+%26+Data+Engineer;Building+Smart+Automation+Pipelines" alt="Typing SVG" />
+</h3>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=35&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=1000&lines=Hi,+there!+I'm+Lee+Christmas;A+Data+Enthusiast;+Welcome+To+My+Profile!" alt="Typing SVG">
