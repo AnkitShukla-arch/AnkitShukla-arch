@@ -59,10 +59,10 @@
   <img src="https://skillicons.dev/icons?i=python,aws,docker,git,github,vscode,mysql,bash&theme=dark" width="60%"><br><br>
 
   <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="57" height="57" alt="NumPy">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="57" height="57" alt="Pandas">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="57" height="57" alt="Jupyter">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" width="57" height="57" alt="Matplotlib">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="60" height="57" alt="NumPy">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="60" height="57" alt="Pandas">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="60" height="57" alt="Jupyter">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" width="60" height="57" alt="Matplotlib">
 </p>
 
 ---
