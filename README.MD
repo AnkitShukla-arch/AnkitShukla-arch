@@ -28,7 +28,10 @@
 <p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Consolas&weight=700&size=24&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Think+in+systems%2C+act+in+data." alt="AI Quote Animation"></p>
 <!--QUOTE-END-->
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+</p>
+
 
 <h2>🧬 System Boot</h2>
 
