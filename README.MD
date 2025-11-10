@@ -137,7 +137,7 @@
     <sub><b>Data Analysis with Python</b></sub>
   </td>
   <td align="center">
-    <img src="data-visualization-python.png" width="250px" alt="Certificate 8"/><br/>
+    <img src="data-visualization-with-python.png" width="250px" alt="Certificate 8"/><br/>
     <sub><b>Data Visualization with Python</b></sub>
   </td>
 </tr>
