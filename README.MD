@@ -29,8 +29,9 @@
 <!--QUOTE-END-->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+  <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/assets/glow-divider.svg" width="60%">
 </p>
+
 
 
 <h2>🧬 System Boot</h2>
