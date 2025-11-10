@@ -10,6 +10,9 @@
 
 <br>
 
+<p align="center">
+  <img src="https://i.ibb.co/6t3kWjv/cyberpunk-hacker.gif" width="250px" alt="Hacker animation">
+</p>
 
 
 ![](header_.png)
