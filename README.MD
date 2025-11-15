@@ -1,15 +1,3 @@
-## 🤖 AI Assistant — Ask Me Anything
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&color=00E7FF&width=700&lines=AI+Assistant+Activated+...;Ask+me+anything+about+Lee's+skills%2C+projects%2C+and+experience." />
-</p>
-
-> 👋 **Hello Recruiter, I am Lee’s AI Assistant.**  
-> You can ask me anything about Lee’s work, skills, performance, hackathon projects, data engineering abilities, or AI expertise.
-
-### ✅ **Example Questions You Can Ask:**
-
-
 ![](Bottom_up.svg)
 <p align="center">
   <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/quantum-banner.gif" 
