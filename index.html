@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>JARVIS — Interactive GitHub Assistant</title>
+  <meta name="description" content="Jarvis-style interactive assistant demo for GitHub Pages. Voice + Text + Commands." />
+  <style>
+    /* ===== Global ===== */
+    :root{
+      --bg:#071021;
+      --panel:#071733;
+      --accent:#00e7ff;
+      --muted:#9aaec8;
+      --glass: rgba(255,255,255,0.03);
+      --glass-2: rgba(255,255,255,0.02);
+      --neon: 0 0 20px rgba(0,231,255,0.12), 0 0 40px rgba(0,231,255,0.04);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#04101a);color:#e6f7ff;}
+    .container{max-width:1100px;margin:40px auto;padding:28px;}
+    h1{font-weight:700;letter-spacing:0.6px;color:var(--accent);margin:0 0 12px;}
+    p.lead{color:var(--muted);margin:0 0 18px;}
+
+    /* ===== HUD / Header ===== */
+    .hero{
+      background: linear-gradient(180deg, rgba(0,231,255,0.02), rgba(0,231,255,0.005));
+      border-radius:14px;padding:20px;border:1px solid rgba(0,231,255,0.06);
+      box-shadow: var(--neon);
+      display:flex;gap:20px;align-items:center;
+    }
+    .hero .left{flex:1}
+    .badge{
+      display:inline-block;padding:8px 12px;border-radius:999px;background:linear-gradient(90deg,#003a49,#002b3a);color:var(--accent);font-weight:600;border:1px solid rgba(0,231,255,0.06)
+    }
+    .small{font-size:13px;color:var(--muted)}
+
+    /* ===== Jarvis Floating Widget ===== */
+    .jarvis{
+      --size:76px;
+      position:fixed;right:28px;bottom:28px;width:var(--size);height:var(--size);
+      background:linear-gradient(180deg, rgba(0,231,255,0.18), rgba(0,231,255,0.06));
+      border-radius:18px;border:1px solid rgba(0,231,255,0.16);
+      display:flex;align-items:center;justify-content:center;cursor:grab;
+      box-shadow: var(--neon);
+    }
+    .jarvis:active{cursor:grabbing;}
+    .jarvis .core{
+      width:56px;height:56px;border-radius:12px;background:linear-gradient(180deg,#001b25,#003a4a);
+      display:flex;align-items:center;justify-content:center;flex-direction:column;padding:6px;border:1px solid rgba(255,255,255,0.03);
+    }
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px var(--accent);margin-bottom:4px}
+    .wave{font-size:11px;color:var(--muted);}
+
+    /* ===== Chat Panel ===== */
+    .chat-panel{
+      position:fixed;right:28px;bottom:116px;width:360px;max-width:92vw;background:linear-gradient(180deg,rgba(7,27,51,0.9), rgba(2,14,28,0.95));
+      border-radius:12px;border:1px solid rgba(0,231,255,0.06);box-shadow:0 10px 40px rgba(0,0,0,0.6);
+      overflow:hidden;display:flex;flex-direction:column;backdrop-filter: blur(6px);
+    }
+    .chat-header{padding:14px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(255,255,255,0.02)}
+    .status{font-size:13px;color:var(--muted)}
+    .chat-body{padding:12px;display:flex;flex-direction:column;gap:10px;max-height:320px;overflow:auto}
+    .msg{padding:10px 12px;border-radius:10px;max-width:85%;}
+    .msg.assistant{background:linear-gradient(180deg,#02263a,#012233);align-self:flex-start;border:1px solid rgba(0,231,255,0.04);color:#ddf7ff}
+    .msg.user{background:linear-gradient(180deg,#0f2a2f,#052227);align-self:flex-end;border:1px solid rgba(255,255,255,0.02);color:#e6f7ff}
+    .chat-input{display:flex;gap:8px;padding:10px;border-top:1px solid rgba(255,255,255,0.02);align-items:center}
+    .input{flex:1;padding:10px 12px;border-radius:999px;background:var(--glass);border:1px solid rgba(255,255,255,0.02);color:var(--muted);outline:none}
+    .btn{padding:10px 12px;border-radius:999px;background:linear-gradient(90deg,#003a49,#002b3a);color:var(--accent);border:1px solid rgba(0,231,255,0.06);cursor:pointer}
+    .btn.secondary{background:transparent;border:1px dashed rgba(255,255,255,0.03);color:var(--muted)}
+    .mini{padding:6px 8px;font-size:13px}
+
+    /* ===== Typing / Analyzer effect ===== */
+    .typing{height:8px;width:100%;background:linear-gradient(90deg, rgba(0,231,255,0.12), rgba(255,255,255,0.02));border-radius:99px;overflow:hidden}
+    .typing > i{display:block;height:100%;width:25%;background:var(--accent);animation:slide 1.2s linear infinite}
+    @keyframes slide{0%{transform:translateX(-120%)}100%{transform:translateX(220%)}}
+
+    /* ===== Small screens ===== */
+    @media (max-width:520px){
+      .chat-panel{right:12px;bottom:96px;width:92vw}
+      .jarvis{right:12px;bottom:12px}
+    }
+
+    /* ===== footer helper ===== */
+    .footer-note{font-size:13px;color:var(--muted);margin-top:14px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <div class="left">
+        <div class="badge">J A R V I S</div>
+        <h1>Interactive GitHub Assistant</h1>
+        <p class="lead">A Jarvis-like demo: voice-enabled, context-aware, and recruiter-friendly. Deploy via GitHub Pages to amaze visitors.</p>
+        <div class="small">Tip: Open in Chrome/Edge for best voice support. No data leaves the browser.</div>
+      </div>
+      <div class="right" style="text-align:right">
+        <div style="display:inline-block;padding:12px;border-radius:12px;background:var(--glass-2);border:1px solid rgba(255,255,255,0.02)">
+          <div style="font-weight:700;color:var(--accent)">Status: Online</div>
+          <div class="small">Jarvis core: demo-mode</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:18px">
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <button class="btn mini" onclick="openRepo()">Open GitHub Repo</button>
+        <button class="btn secondary mini" onclick="showProjects()">Show Projects</button>
+        <button class="btn secondary mini" onclick="speakText('Welcome! I am Jarvis. Click the blue orb or say Hey Jarvis to begin.')">Play Intro</button>
+        <button class="btn mini" onclick="togglePanel()">Toggle Jarvis Panel</button>
+      </div>
+
+      <div class="footer-note">Privacy: All voice/text processing is done locally in the browser. No API keys required for demo mode.</div>
+    </div>
+  </div>
+
+  <!-- Floating Jarvis -->
+  <div class="jarvis" id="jarvis" title="Drag me — click to open Jarvis">
+    <div class="core" id="jarvis-core" role="button" tabindex="0" aria-label="Open Jarvis assistant">
+      <div class="dot" id="jarvis-led"></div>
+      <div class="wave">Jarvis</div>
+    </div>
+  </div>
+
+  <!-- Chat Panel (hidden by default) -->
+  <div class="chat-panel" id="chatPanel" style="display:none" aria-live="polite">
+    <div class="chat-header">
+      <div>
+        <div style="font-weight:700;color:var(--accent)">JARVIS</div>
+        <div class="status" id="jarvisMode">Mode: Voice & Text (Demo)</div>
+      </div>
+      <div style="margin-left:auto;display:flex;gap:8px">
+        <button class="btn secondary mini" onclick="copyProfile()">Copy Profile Link</button>
+        <button class="btn mini" onclick="closePanel()">Close</button>
+      </div>
+    </div>
+
+    <div class="chat-body" id="chatBody">
+      <div class="msg assistant">Hello Commander — Jarvis is standing by. Say "<b>Hey Jarvis</b>" or press the orb to start.</div>
+    </div>
+
+    <div style="padding:8px 12px;">
+      <div class="typing" id="typingBar" style="display:none"><i></i></div>
+    </div>
+
+    <div class="chat-input">
+      <input id="textInput" class="input" placeholder="Type a command (e.g., show projects, open repo, about you)" />
+      <button class="btn secondary" id="micBtn" title="Start voice" onclick="toggleSpeech()">🎙</button>
+      <button class="btn" onclick="sendText()">Send</button>
+    </div>
+  </div>
+
+<script>
+/* ========== Jarvis Assistant — Client-only demo ==========
+
+   Features:
+   - draggable floating orb that toggles chat panel
+   - Web Speech API (recognition + synthesis)
+   - simple command interpreter with local docs 'RAG' demo
+   - safe: no data leaves browser in demo mode
+   - ready to be extended to call real LLM backends (hooks provided)
+
+   Note: SpeechRecognition is available in Chrome/Edge. Use HTTPS or GitHub Pages for mic access.
+======================================================= */
+
+(() => {
+  // Elements
+  const jarvis = document.getElementById('jarvis');
+  const jarvisCore = document.getElementById('jarvis-core');
+  const chatPanel = document.getElementById('chatPanel');
+  const chatBody = document.getElementById('chatBody');
+  const jarvisLed = document.getElementById('jarvis-led');
+  const typingBar = document.getElementById('typingBar');
+  const modeLabel = document.getElementById('jarvisMode');
+
+  // Basic demo "knowledge base" — edit these docs to match your repo
+  const docs = [
+    {id:'readme', title:'Project README', text: 'This repo contains advanced AI projects: Jarvis assistant, ETL pipeline, voice agents and demo microservices. Built with Python, FastAPI and Streamlit.'},
+    {id:'voice', title:'Voice Engine', text: 'Voice integration uses Web Speech API for demo. Production uses Whisper for STT and a TTS engine.'},
+    {id:'projects', title:'Projects', text: 'Featured projects: AI-Reputation-Analyzer, LeakHawk, Movie-Recommender, Jarvis-AI-Assistant.'},
+    {id:'contact', title:'Contact', text: 'You can reach me via email: name@example.com or link to LinkedIn.'}
+  ];
+
+  // Utility: append message
+  function appendMsg(text, who='assistant') {
+    const el = document.createElement('div');
+    el.className = 'msg ' + (who==='user' ? 'user' : 'assistant');
+    el.innerHTML = text;
+    chatBody.appendChild(el);
+    chatBody.scrollTop = chatBody.scrollHeight;
+  }
+
+  // Utility: set typing indicator
+  function setTyping(on) {
+    typingBar.style.display = on ? 'block' : 'none';
+  }
+
+  // Toggle chat panel
+  window.togglePanel = function(toggle) {
+    const showing = chatPanel.style.display !== 'none';
+    chatPanel.style.display = (toggle === undefined ? !showing : toggle) ? 'flex' : 'none';
+  };
+  function closePanel(){ togglePanel(false); }
+  jarvisCore.addEventListener('click', () => togglePanel(true));
+
+  // Dragging support for orb
+  (function draggable(target){
+    let dragging=false, offsetX=0, offsetY=0;
+    target.addEventListener('pointerdown', e => {
+      dragging=true; offsetX=e.clientX - target.getBoundingClientRect().left;
+      offsetY=e.clientY - target.getBoundingClientRect().top;
+      target.setPointerCapture(e.pointerId);
+    });
+    window.addEventListener('pointermove', e => {
+      if(!dragging) return;
+      let x = e.clientX - offsetX, y = e.clientY - offsetY;
+      x = Math.max(8, Math.min(window.innerWidth - target.clientWidth - 8, x));
+      y = Math.max(8, Math.min(window.innerHeight - target.clientHeight - 8, y));
+      target.style.left = x + 'px'; target.style.top = y + 'px';
+      target.style.right = 'auto'; target.style.bottom = 'auto';
+    });
+    window.addEventListener('pointerup', e => dragging=false);
+  })(jarvis);
+
+  // Speech: Recognition + Synthesis
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+  let recognizer = null;
+  let recognizing = false;
+  if (SpeechRecognition) {
+    recognizer = new SpeechRecognition();
+    recognizer.lang = 'en-US';
+    recognizer.interimResults = false;
+    recognizer.maxAlternatives = 1;
+    recognizer.onresult = (ev) => {
+      const t = ev.results[0][0].transcript.trim();
+      appendMsg(escapeHtml(t), 'user');
+      handleCommand(t);
+    };
+    recognizer.onerror = (ev) => {
+      console.debug('Recognition error', ev);
+      appendMsg('Voice recognition error — try again or use typing.');
+    };
+    recognizer.onend = () => { recognizing=false; updateMicButton(); };
+  } else {
+    console.info('SpeechRecognition not supported in this browser.');
+  }
+
+  function updateMicButton() {
+    const micBtn = document.getElementById('micBtn');
+    micBtn.textContent = recognizing ? '⏹' : '🎙';
+  }
+
+  window.toggleSpeech = function(){
+    if(!recognizer) {
+      appendMsg('Voice not supported in this browser. Use Chrome/Edge on desktop for demo.');
+      return;
+    }
+    if(recognizing){
+      recognizer.stop();
+      recognizing=false;
+      updateMicButton();
+      return;
+    }
+    try {
+      recognizer.start();
+      recognizing=true;
+      updateMicButton();
+      setTyping(true);
+      setTimeout(()=>setTyping(false), 700);
+    } catch (e) {
+      console.error(e);
+      appendMsg('Could not start microphone. Check permissions and HTTPS.');
+    }
+  };
+
+  // Text-to-Speech
+  function speakText(text) {
+    try {
+      if (!('speechSynthesis' in window)) return;
+      const s = new SpeechSynthesisUtterance(text);
+      s.lang = 'en-US';
+      s.rate = 1.0;
+      s.pitch = 1.0;
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(s);
+    } catch (e) {
+      console.warn('TTS failed', e);
+    }
+  }
+
+  // Basic command interpreter
+  function handleCommand(raw) {
+    const cmd = raw.toLowerCase().trim();
+    setTyping(true);
+
+    // small delay for "thinking" effect
+    setTimeout(()=>{
+      setTyping(false);
+      // Wake word handling
+      const wakePrefixes = ['hey jarvis','jarvis','hey jervis','ok jarvis'];
+      let content = cmd;
+      for (const p of wakePrefixes){
+        if(content.startsWith(p)) {
+          content = content.slice(p.length).trim();
+          break;
+        }
+      }
+      if(!content) {
+        respond("Yes commander? Say a command like 'show projects', 'open repo', or 'summarize readme'.");
+        return;
+      }
+
+      // Built-in commands
+      if(/open.*repo/.test(content) || /open.*github/.test(content)) {
+        respond('Opening the GitHub repository in a new tab.');
+        speakText('Opening repository');
+        openRepo();
+        return;
+      }
+
+      if(/show.*projects/.test(content) || /list.*projects/.test(content)) {
+        const projList = docs.find(d=>d.id==='projects')?.text || 'No projects found.';
+        respond('Here are featured projects: ' + projList);
+        speakText('Displaying projects');
+        return;
+      }
+
+      if(/about.*you|who.*are you|what can you do/.test(content)) {
+        respond('I am Jarvis — a demo assistant running in your browser. I can play voice, open links, and search local docs. For full LLM capabilities connect me to an API.');
+        speakText('I am Jarvis, your assistant. I can open your repo, show projects, and summarize docs.');
+        return;
+      }
+
+      if(/summarize|summary|readme|about repo/.test(content)) {
+        const r = docs.find(d=>d.id==='readme');
+        if(r) { respond(`README summary: ${r.text}`); speakText('Here is the README summary'); }
+        else { respond('No README available in demo.'); }
+        return;
+      }
+
+      // Ask to search local docs (simple keyword matching)
+      if(/search|find|lookup/.test(content) || content.split(' ').length>2) {
+        const result = searchDocs(content);
+        if(result) { respond(`<b>${result.title}:</b> ${result.text}`); speakText('Found a matching document.'); }
+        else { respond("I couldn't find a close match. Try another phrase or check the README."); speakText('No match found'); }
+        return;
+      }
+
+      // Fallback playful answer
+      respond("I heard: " + escapeHtml(content) + ". I can (1) open repo, (2) show projects, (3) summarize README, or perform a local search. Try one of those.");
+      speakText('Command received. Try saying show projects, or open repo.');
+    }, 650);
+  }
+
+  // Document search: very simple keyword match scoring
+  function searchDocs(q) {
+    q = q.toLowerCase();
+    let best = null, bestScore = 0;
+    for(const d of docs){
+      let score = 0;
+      const text = (d.title + ' ' + d.text).toLowerCase();
+      // count keyword occurrences
+      const tokens = q.split(/\s+/).filter(Boolean);
+      for(const t of tokens){
+        if(text.includes(t)) score += 1;
+      }
+      // small bonus for longer exact substring match
+      if (text.includes(q) && q.length>6) score += 2;
+      if(score > bestScore){ best = d; bestScore = score; }
+    }
+    return bestScore>0 ? best : null;
+  }
+
+  // Respond helper
+  function respond(html) {
+    appendMsg(html, 'assistant');
+  }
+
+  // Send typed text
+  window.sendText = function() {
+    const input = document.getElementById('textInput');
+    const v = input.value.trim();
+    if(!v) return;
+    appendMsg(escapeHtml(v), 'user');
+    input.value = '';
+    handleCommand(v);
+  };
+
+  // Simple actions
+  window.openRepo = function() {
+    // Replace URL with your repo link:
+    const repo = window.location.origin + window.location.pathname.replace(/\/?$/, '/'); // default: current page
+    const repoLink = 'https://github.com/'; // <-- replace this with your repo URL, e.g. 'https://github.com/YourUser/YourRepo'
+    window.open(repoLink, '_blank', 'noopener');
+  };
+
+  window.showProjects = function() {
+    const p = docs.find(d=>d.id==='projects');
+    if(p) respond(`<b>Projects:</b> ${p.text}`);
+    else respond('No projects found in demo.');
+  };
+
+  window.copyProfile = function() {
+    const url = window.location.href;
+    navigator.clipboard?.writeText(url).then(()=>{
+      respond('Profile link copied to clipboard.');
+      speakText('Link copied.');
+    }).catch(()=>{ respond('Could not copy link.'); });
+  };
+
+  // Escape HTML
+  function escapeHtml(str) {
+    return str.replace(/[&<>"']/g, function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m];});
+  }
+
+  // Keyboard shortcut: press J to toggle panel
+  window.addEventListener('keydown', e => {
+    if(e.key.toLowerCase() === 'j' && !/input|textarea/i.test(document.activeElement.tagName)) {
+      togglePanel();
+    }
+  });
+
+  // Initial animation LED pulse
+  let ledOn = true;
+  setInterval(()=> {
+    jarvisLed.style.opacity = ledOn ? '1' : '0.45';
+    ledOn = !ledOn;
+  }, 700);
+
+  // Expose simple hook for future LLM connection:
+  window.Jarvis = {
+    // Example: Jarvis.callLLM = (payload) => fetch('/api/llm', {method:'POST',body:JSON.stringify(payload)})
+    callLLM: async function(payload){
+      // Placeholder - replace with your backend integration when ready.
+      console.warn('callLLM not implemented. Payload:', payload);
+      return {text:'LLM integration is not set up in demo mode.'};
+    }
+  };
+
+  // Accessibility hint
+  document.addEventListener('DOMContentLoaded', () => {
+    respond('Jarvis ready. Press the orb or say "Hey Jarvis" to interact.');
+  });
+
+})();
+</script>
+</body>
+</html>
