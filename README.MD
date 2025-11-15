@@ -1,10 +1,3 @@
-<p align="center">
-  <a href="https://AnkitShukla-arch.github.io/jarvis">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=2800&color=00E7FF&center=true&vCenter=true&width=500&lines=Launch+JARVIS+AI+Assistant" />
-  </a>
-</p>
-
-
 ![](Bottom_up.svg)
 <p align="center">
   <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/quantum-banner.gif" 
