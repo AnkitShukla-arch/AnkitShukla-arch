@@ -151,7 +151,7 @@
 
   <td align="center">
     <img src="Applied-Data-Science-Capstone.png" width="250px" alt="Certificate 10"/><br/>
-    <sub><b>New Certificate Title</b></sub>
+    <sub><b>Data Science Capstone</b></sub>
   </td>
 </tr>
 
