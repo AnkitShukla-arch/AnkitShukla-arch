@@ -149,6 +149,12 @@
     <sub><b>Machine Learning with Python</b></sub>
   </td>
 </tr>
+<tr>
+  <td align="center" colspan="4">
+    <img src="Applied-Data-Science-Capstone.png" width="250px" alt="Certificate 10"/><br/>
+    <sub><b>Machine Learning with Python</b></sub>
+  </td>
+</tr>
 
 </table>
 
