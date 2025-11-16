@@ -150,7 +150,7 @@
   </td>
 
   <td align="center">
-    <img src="Applied-Data-Science-Capstone.png" width="250px" alt="Certificate 10"/><br/>
+    <img src="data-science-capstone.png" width="250px" alt="Certificate 10"/><br/>
     <sub><b>Data Science Capstone</b></sub>
   </td>
 </tr>
