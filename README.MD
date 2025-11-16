@@ -144,15 +144,14 @@
 
 <!-- Row 3 (last one centered) -->
 <tr>
-  <td align="center" colspan="4">
+  <td align="center">
     <img src="machine-learning-with-python.png" width="250px" alt="Certificate 9"/><br/>
     <sub><b>Machine Learning with Python</b></sub>
   </td>
-</tr>
-<tr>
-  <td align="center" colspan="4">
+
+  <td align="center">
     <img src="Applied-Data-Science-Capstone.png" width="250px" alt="Certificate 10"/><br/>
-    <sub><b>Machine Learning with Python</b></sub>
+    <sub><b>New Certificate Title</b></sub>
   </td>
 </tr>
 
