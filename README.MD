@@ -155,7 +155,12 @@
   </td>
 
   <td align="center">
-    <img src="Coursera final-1.png" width="250px" alt="Certificate 10"/><br/>
+    <img src="Gen-AI.png" width="250px" alt="Certificate 10"/><br/>
+    <sub><b>Generative A.I.</b></sub>
+  </td>
+
+ <td align="center">
+    <img src="Coursera final-1.png" width="250px" alt="Certificate 11"/><br/>
     <sub><b>IBM Data Science</b></sub>
   </td>
 </tr>
