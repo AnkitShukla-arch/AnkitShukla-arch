@@ -153,6 +153,11 @@
     <img src="data-science-capstone.png" width="250px" alt="Certificate 10"/><br/>
     <sub><b>Data Science Capstone</b></sub>
   </td>
+
+  <td align="center">
+    <img src="Coursera final-1.png" width="250px" alt="Certificate 10"/><br/>
+    <sub><b>IBM Data Science</b></sub>
+  </td>
 </tr>
 
 </table>
