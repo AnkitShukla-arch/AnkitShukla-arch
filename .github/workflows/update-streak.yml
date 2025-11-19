@@ -14,7 +14,9 @@ jobs:
 
       - name: Download streak card
         run: |
-          curl "https://streak-stats.demolab.com/?user=AnkitShukla-arch&theme=tokyonight&hide_border=true&background=0A0F17&ring=00BFFF&fire=00BFFF&currStreakLabel=E0F7FF" -o streak-card.png
+         curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" \
+         "https://streak-stats.demolab.com/?user=AnkitShukla-arch&theme=tokyonight&hide_border=true&background=0A0F17&ring=00BFFF&fire=00BFFF&currStreakLabel=E0F7FF" \
+         -o streak-card.png
 
       - name: Commit and push
         run: |
