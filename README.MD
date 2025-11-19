@@ -1,3 +1,6 @@
+<img src="https://streak-stats.demolab.com?user=AnkitShukla-arch&theme=tokyonight&hide_border=true&background=0A0F17&ring=00BFFF&fire=00BFFF&currStreakLabel=E0F7FF" alt="GitHub Streak Stats"/>
+
+
 ![](Bottom_up.svg)
 <p align="center">
   <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/quantum-banner.gif" 
