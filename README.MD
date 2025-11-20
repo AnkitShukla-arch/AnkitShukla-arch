@@ -173,6 +173,11 @@
     <sub><b>Introduction to Git and Github</b></sub>
   </td>
 
+  <td align="center">
+    <img src="Coursera learn_kart1-1.png" width="250px" alt="Certificate 13"/><br/>
+    <sub><b>Data Engineering Foundation on AWS</b></sub>
+  </td>
+
 </table>
 
 
