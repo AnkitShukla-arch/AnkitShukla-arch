@@ -156,15 +156,22 @@
   </td>
 
   <td align="center">
-    <img src="Gen-AI.png" width="250px" alt="Certificate 10"/><br/>
+    <img src="Gen-AI.png" width="250px" alt="Certificate 11"/><br/>
     <sub><b>Generative A.I.</b></sub>
   </td>
 
  <td align="center">
-    <img src="Coursera final-1.png" width="250px" alt="Certificate 11"/><br/>
+    <img src="Coursera final-1.png" width="250px" alt="Certificate 12"/><br/>
     <sub><b>IBM Data Science</b></sub>
   </td>
 </tr>
+
+<!-- Row 4 -->
+<tr>
+  <td align="center">
+    <img src="Coursera Git_certificate-1.png" width="250px" alt="Certificate 13"/><br/>
+    <sub><b>Machine Learning with Python</b></sub>
+  </td>
 
 </table>
 
