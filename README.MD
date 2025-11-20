@@ -170,7 +170,7 @@
 <tr>
   <td align="center">
     <img src="Coursera Git_certificate-1.png" width="250px" alt="Certificate 13"/><br/>
-    <sub><b>Machine Learning with Python</b></sub>
+    <sub><b>Introduction to Git and Github</b></sub>
   </td>
 
 </table>
