@@ -44,6 +44,10 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AnkitShukla-arch&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF" width="50%">
 <p align="center">
+  <img src="https://streak-stats.demolab.com?user=AnkitShukla-arch&theme=tokyonight&hide_border=true&background=0A0F17&ring=00BFFF&fire=00BFFF&currStreakLabel=E0F7FF" width="52%">
+</p>
+
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnkitShukla-arch&layout=compact&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF&hide_border=true&langs_count=8" width="60%">
 </p>
 
