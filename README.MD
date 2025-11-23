@@ -1,8 +1,3 @@
-### 🧰 Tech Toolkit
-<p>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,tensorflow,pytorch,postgres,aws,docker,git,github,linux&perline=8" />
-</p>
-
 ![](Bottom_up.svg)
 <p align="center">
   <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/quantum-banner.gif" 
