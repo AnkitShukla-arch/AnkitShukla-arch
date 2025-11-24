@@ -1,3 +1,162 @@
+<!-- Header -->
+<h1 align="center">Hi 👋, I'm <span style="color:#58a6ff;">Ankit Shukla</span></h1>
+<h3 align="center">AI Engineer • Data Engineer • ML Practitioner</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&size=24&center=true&vCenter=true&width=700&lines=I+build+AI+Assistants;I+engineer+Data+Pipelines;I+love+Machine+Learning;I+develop+ML-powered+Applications;Always+learning+new+things+💡">
+</p>
+
+---
+
+## 🚀 About Me
+- 🔭 I build end-to-end AI systems, automation tools, and ML workflows  
+- 🧠 Passionate about **AI reasoning**, **data engineering**, and **machine learning**  
+- 🛠 Skilled in Python, FastAPI, Docker, ML, GitHub Actions, Streamlit, SQL  
+- 🎯 Focused on production-grade AI applications  
+- 📚 Always learning, always building  
+
+---
+
+## 🧰 Tech Stack  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,fastapi,flask,postgresql,mysql,sqlite,git,github,linux,docker,aws,html,css,js&perline=10" />
+</p>
+
+---
+
+## 🧠 What I Do  
+- 🤖 Build AI Voice Assistants with wake-word detection & contextual memory  
+- 🎬 Create ML-powered content recommenders (Movies & Web Series)  
+- 🛠 Develop AI Automated ETL Pipelines  
+- 🔐 Build security tools (Password Manager, OSINT Intelligence Tools)  
+- 📊 Implement ML training loops, data preprocessing, and feature pipelines  
+- ⚙️ Deploy apps using Streamlit, FastAPI & Docker  
+
+---
+
+# 🚀 Major Projects
+
+### 🤖 **AI Voice Assistant (Advanced)**
+- Wake-word activation  
+- Emotional intelligence  
+- Context memory  
+- Smart command execution  
+- Multimodal reasoning  
+- <b>Stack:</b> Python, SpeechRecognition, Transformers, NLU  
+
+---
+
+### 🎬 **Movie Recommendation System**
+- Content-based filtering  
+- Collaborative filtering (scikit-surprise)  
+- Movie posters, metadata, trending section  
+- Streamlit UI  
+- <b>Stack:</b> Python, pandas, scikit-learn, Streamlit  
+
+---
+
+### 📺 **Web Series Recommendation System**
+- Genre filtering  
+- Input matching  
+- Posters + metadata  
+- Separate backend logic  
+- <b>Stack:</b> Python, pandas, TMDB API  
+
+---
+
+### 🛠 **AI Automated ETL Pipeline**
+- CSV/API/log ingestion  
+- Auto-cleaning + validation  
+- Suspicious-data routing  
+- Dockerized pipeline  
+- Monitoring + retraining loop  
+- <b>Stack:</b> Python, FastAPI, MinIO, Docker, Airflow  
+
+---
+
+### 🔐 **Password Manager**
+- Encrypted password storage  
+- CLI + GUI  
+- Auto-fill capabilities  
+- <b>Stack:</b> Python, Cryptography  
+
+---
+
+### 🦅 **LeakHawk — OSINT Intelligence Tool**
+- Social media scanning  
+- Dark web leak detection  
+- Credential exposure analysis  
+- SIH Project  
+- <b>Stack:</b> Python, API scraping, OSINT automation  
+
+---
+
+# 🏆 Certifications  
+<p align="center">
+
+<!-- Row 1 -->
+<table>
+<tr>
+  <td><img src="certificate1.png" width="200px"><br><sub><b>Data Science Orientation</b></sub></td>
+  <td><img src="certificate2.png" width="200px"><br><sub><b>Python for Data Science</b></sub></td>
+  <td><img src="certificate3.png" width="200px"><br><sub><b>Data Science Methodology</b></sub></td>
+  <td><img src="certificate4.png" width="200px"><br><sub><b>Tools for Data Science</b></sub></td>
+</tr>
+</table>
+
+<!-- Row 2 -->
+<table>
+<tr>
+  <td><img src="certificate5.png" width="200px"><br><sub><b>Databases & SQL</b></sub></td>
+  <td><img src="certificate6.png" width="200px"><br><sub><b>Applied Data Science</b></sub></td>
+  <td><img src="certificate7.png" width="200px"><br><sub><b>Data Analysis with Python</b></sub></td>
+  <td><img src="certificate8.png" width="200px"><br><sub><b>Data Visualization</b></sub></td>
+</tr>
+</table>
+
+<!-- Row 3 -->
+<table>
+<tr>
+  <td><img src="machine-learning-with-python.png" width="200px"><br><sub><b>Machine Learning with Python</b></sub></td>
+  <td><img src="certificate_no_border.png" width="200px"><br><sub><b>Applied Data Science Capstone</b></sub></td>
+</tr>
+</table>
+
+</p>
+
+---
+
+# 📊 GitHub Stats  
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=AnkitShukla-arch&show_icons=true&theme=tokyonight">
+  <img width="48%" src="https://streak-stats.demolab.com?user=AnkitShukla-arch&theme=tokyonight&hide_border=true">
+</p>
+
+---
+
+# 🧩 Fun Corner  
+- 🧩 Solving LeetCode challenges  
+- 🎬 Watching AI breakdown videos  
+- 🎮 Building random automation tools  
+- 💡 Making weird but useful Python hacks  
+- 🤖 Talking to my own AI assistant (yes, really)  
+
+---
+
+# 📫 Connect With Me  
+<p align="center">
+  <a href="#"><img src="https://skillicons.dev/icons?i=linkedin"></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=twitter"></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=github"></a>
+</p>
+
+---
+
+<p align="center">
+  ⭐ If you like my work, consider starring my repositories! ⭐  
+</p>
+
+
 ![](Bottom_up.svg)
 <p align="center">
   <img src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/quantum-banner.gif" 
