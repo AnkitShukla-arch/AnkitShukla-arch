@@ -99,11 +99,6 @@
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=Basic-Password-Manager&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF&hide_border=true" width="420">
 </a>
 </td>
-<td align="center">
-<a href="https://github.com/AnkitShukla-arch/Online-Reputation-Analysis-Management-">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AnkitShukla-arch&repo=Online-Reputation-Analysis-Management-&theme=tokyonight&bg_color=0A0F17&title_color=00BFFF&text_color=E0F7FF&hide_border=true" width="420">
-</a>
-</td>
 </tr>
 </table>
 
