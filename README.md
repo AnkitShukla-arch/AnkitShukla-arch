@@ -188,6 +188,11 @@
     <img src="Coursera learn_kart1-1.png" width="250px" alt="Certificate 13"/><br/>
     <sub><b>Data Engineering Foundation on AWS</b></sub>
   </td>
+  
+  <td align="center">
+    <img src="sql certificate.png" width="250px" alt="Certificate 14"/><br/>
+    <sub><b>SQL:An Introduction for Querying Database</b></sub>
+  </td>
 
 </table>
 
