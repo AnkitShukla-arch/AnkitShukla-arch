@@ -190,7 +190,7 @@
   </td>
   
   <td align="center">
-    <img src="sql certificate.png" width="250px" alt="Certificate 14"/><br/>
+    <img src="sql_certificate.png" width="250px" alt="Certificate 14"/><br/>
     <sub><b>SQL:An Introduction for Querying Database</b></sub>
   </td>
 
