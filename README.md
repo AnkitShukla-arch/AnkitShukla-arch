@@ -17,7 +17,7 @@
 <h2>🧠 Daily AI Insight</h2>
 
 <!--QUOTE-START-->
-<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Consolas&weight=700&size=24&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Data+speaks+only+when+engineered+to." alt="AI Quote Animation"></p>
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Consolas&weight=700&size=24&duration=4500&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Data+is+the+new+oil+%E2%80%94+pipelines+are+the+refineries." alt="AI Quote Animation"></p>
 <!--QUOTE-END-->
 
 
