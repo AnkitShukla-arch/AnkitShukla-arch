@@ -176,22 +176,27 @@
     <img src="Coursera Git_certificate-1.png" width="250px" alt="Certificate 13"/><br/>
     <sub><b>Introduction to Git and Github</b></sub>
   </td>
-
   <td align="center">
-    <img src="Coursera learn_kart1-1.png" width="250px" alt="Certificate 13"/><br/>
+    <img src="Coursera learn_kart1-1.png" width="250px" alt="Certificate 14"/><br/>
     <sub><b>Data Engineering Foundation on AWS</b></sub>
   </td>
-  
   <td align="center">
-    <img src="sql_certificate.png" width="250px" alt="Certificate 14"/><br/>
+    <img src="sql_certificate.png" width="250px" alt="Certificate 15"/><br/>
     <sub><b>SQL:An Introduction for Querying Database</b></sub>
   </td>
-
   <td align="center">
-    <img src="Coursera d.png" width="250px" alt="Certificate 14"/><br/>
+    <img src="Coursera d.png" width="250px" alt="Certificate 16"/><br/>
     <sub><b>Introduction to Data Engineerinf</b></sub>
   </td>
+</tr>
 
+  <!-- Row 5 -->
+<tr>
+  <td align="center">
+    <img src="Coursera IRZ9SNPU8XM6.png" width="250px" alt="Certificate 17"/><br/>
+    <sub><b>Data Science Orientation</b></sub>
+  </td>
+</tr>
 </table>
 
 
