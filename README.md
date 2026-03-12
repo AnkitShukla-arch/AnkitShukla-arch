@@ -187,6 +187,11 @@
     <sub><b>SQL:An Introduction for Querying Database</b></sub>
   </td>
 
+  <td align="center">
+    <img src="Coursera d.png" width="250px" alt="Certificate 14"/><br/>
+    <sub><b>Introduction to Data Engineerinf</b></sub>
+  </td>
+
 </table>
 
 
