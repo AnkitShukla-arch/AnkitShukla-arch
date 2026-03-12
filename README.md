@@ -194,7 +194,7 @@
 <tr>
   <td align="center">
     <img src="Coursera IRZ9SNPU8XM6.png" width="250px" alt="Certificate 17"/><br/>
-    <sub><b>Data Science Orientation</b></sub>
+    <sub><b>Data Warehouse Fundamentals</b></sub>
   </td>
 </tr>
 </table>
