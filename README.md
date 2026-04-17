@@ -207,27 +207,19 @@
 
 <h2>🏆 Hackathons</h2>
 
-<p align="center">
-  <a href="certi.jpeg">
-  </a>
-  <a href="certi1.jpeg">
-    <img src="YOUR_IMAGE_LINK_2" width="180" />
-  </a>
-  <a href="certi2.jpeg">
-    <img src="YOUR_IMAGE_LINK_3" width="180" />
-  </a>
-  <a href="certi3.jpeg">
-    <img src="YOUR_IMAGE_LINK_4" width="180" />
-  </a>
-</p>
+<div align="center">
+  <img src="" width="180"/>
+  <img src="certi3.jpeg" width="180"/>
+  <img src="certi2.jpeg" width="180"/>
+  <img src="certi1.jpeg" width="180"/>
+  <img src="certi.jpeg" width="180"/>
+</div>
 
 <p align="center">
   <b>IISc Bangalore</b> &nbsp;&nbsp;&nbsp;
   <b>NIT Durgapur</b> &nbsp;&nbsp;&nbsp;
-  <b>OpenAI</b> &nbsp;&nbsp;&nbsp;
-  <b>Data Sprint</b> &nbsp;&nbsp;&nbsp;
   <b>GGSIPU</b> &nbsp;&nbsp;&nbsp;
-  <b>IGDTUW</b>
+  <b>IGDTUW</b> 
 </p>
 
 ---
