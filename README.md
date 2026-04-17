@@ -73,15 +73,9 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,docker,aws,vscode,linux,bash,mysql,postgres,mongodb,redis" />
+  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,bash,mysql,postgres,mongodb,redis" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws" />
-  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes" />
-</p>
 </div>
 
 <h2>💼 Featured Projects</h2>
