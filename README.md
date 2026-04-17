@@ -208,6 +208,7 @@
 
 <h2>🏆 Hackathons</h2>
 
+<table align="center">
  <tr>
   <td align="center">
     <img src="certi3.jpeg" width="250px" alt="Certificate 1"/><br/>
@@ -226,7 +227,7 @@
     <sub><b>IISc Banglore</b></sub>
   </td>
 </tr>
-
+</table>
 
 ---
 
