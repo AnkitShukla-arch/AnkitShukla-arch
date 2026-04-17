@@ -208,20 +208,24 @@
 
 <h2>🏆 Hackathons</h2>
 
-<div align="center">
-  <img src="certi3.jpeg" width="210"/>
-  <sub><b>IISc Banglore</b></sub>
-  
-  <img src="certi2.jpeg" width="200"/>
-    <sub><b>IGDTUW</b></sub>
-
-  <img src="certi1.jpeg" width="210"/>
-    <sub><b>NIT Durgapur</b></sub>
-
-  <img src="certi.jpeg" width="210" alt="IISC Banglore"/>
+ <tr>
+  <td align="center">
+    <img src="certi3.jpeg" width="250px" alt="Certificate 1"/><br/>
     <sub><b>IISc Banglore</b></sub>
-
-</div>
+  </td>
+  <td align="center">
+    <img src="certi2.jpeg" width="250px" alt="Certificate 2"/><br/>
+    <sub><b>IGDTUW</b></sub>
+  </td>
+  <td align="center">
+    <img src="certi1.jpeg" width="250px" alt="Certificate 3"/><br/>
+    <sub><b>NIT Durgapur</b></sub>
+  </td>
+  <td align="center">
+    <img src="certi.jpeg" width="250px" alt="Certificate 4"/><br/>
+    <sub><b>IISc Banglore</b></sub>
+  </td>
+</tr>
 
 
 ---
