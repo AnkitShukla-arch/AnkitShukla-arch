@@ -60,12 +60,12 @@
 
 <h2>🛠️ Tech Arsenal</h2>
 
-<h3 align="center">Languages & Frameworks</h3>
+<h3>Languages & Frameworks</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,fastapi,flask,html,css,tailwind,bootstrap" />
 </p>
 
-<h3 align="center">Data Science & ML</h3>
+<h3>Data Science & ML</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Pandas-0A0A23?style=for-the-badge&logo=pandas" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy" />
@@ -74,12 +74,12 @@
   <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras" />
 </p>
 
-<h3 align="center">Tools & Platforms</h3>
+<h3>Tools & Platforms</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,docker,aws,vscode,linux,bash,mysql,postgres,mongodb,redis" />
 </p>
 
-<h3 align="center">Cloud & DevOps</h3>
+<h3>Cloud & DevOps</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws" />
   <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud" />
