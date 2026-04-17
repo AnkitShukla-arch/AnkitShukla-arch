@@ -215,13 +215,6 @@
   <img src="certi.jpeg" width="180"/>
 </div>
 
-<p align="center">
-  <b>IISc Bangalore</b> &nbsp;&nbsp;&nbsp;
-  <b>NIT Durgapur</b> &nbsp;&nbsp;&nbsp;
-  <b>GGSIPU</b> &nbsp;&nbsp;&nbsp;
-  <b>IGDTUW</b> 
-</p>
-
 ---
 
 
