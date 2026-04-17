@@ -58,19 +58,28 @@
 
 
 
-<h2>⚙️ Tech Arsenal</h2>
+<h2>🛠️ Tech Arsenal</h2>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,aws,docker,git,github,vscode,mysql,bash&theme=dark" width="60%"><br><br>
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
 
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="60" height="60" alt="NumPy">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="60" height="60" alt="Pandas">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="60" height="60" alt="Jupyter">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" width="60" height="60" alt="Matplotlib">
-</p>
+  <img src="https://skillicons.dev/icons?i=python" height="50">
+  <img src="https://skillicons.dev/icons?i=aws" height="50">
+  <img src="https://skillicons.dev/icons?i=docker" height="50">
+  <img src="https://skillicons.dev/icons?i=git" height="50">
+  <img src="https://skillicons.dev/icons?i=github" height="50">
+  <img src="https://skillicons.dev/icons?i=vscode" height="50">
+  <img src="https://skillicons.dev/icons?i=mysql" height="50">
+  <img src="https://skillicons.dev/icons?i=bash" height="50">
 
+  <img src="https://skillicons.dev/icons?i=tensorflow" height="50">
+  <img src="https://skillicons.dev/icons?i=pytorch" height="50">
 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" height="50">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" height="50">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" height="50">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" height="50">
+
+</div>
 
 <h2>💼 Featured Projects</h2>
 
@@ -225,7 +234,7 @@
 
 ```bash
 > System Status: ONLINE
-> Version: 2025.10
+> Version: 2026.10
 > Quantum Engine: ACTIVE ⚡
 ```
 <br/>
