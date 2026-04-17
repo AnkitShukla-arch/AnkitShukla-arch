@@ -210,7 +210,7 @@
 
 <div align="center">
   <img src="certi3.jpeg" width="210"/>
-  <img src="certi2.jpeg" width="210"/>
+  <img src="certi2.jpeg" width="190"/>
   <img src="certi1.jpeg" width="210"/>
   <img src="certi.jpeg" width="210"/>
 </div>
