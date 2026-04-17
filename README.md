@@ -210,9 +210,17 @@
 
 <div align="center">
   <img src="certi3.jpeg" width="210"/>
+  <sub><b>IISc Banglore</b></sub>
+  
   <img src="certi2.jpeg" width="200"/>
+    <sub><b>IGDTUW</b></sub>
+
   <img src="certi1.jpeg" width="210"/>
+    <sub><b>NIT Durgapur</b></sub>
+
   <img src="certi.jpeg" width="210" alt="IISC Banglore"/>
+    <sub><b>IISc Banglore</b></sub>
+
 </div>
 
 
