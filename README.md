@@ -209,10 +209,10 @@
 <h2>🏆 Hackathons</h2>
 
 <div align="center">
-  <img src="certi3.jpeg" width="210"/>
-  <img src="certi2.jpeg" width="200"/>
-  <img src="certi1.jpeg" width="210"/>
-  <img src="certi.jpeg" width="210"/>
+  <img src="certi3.jpeg" width="210" alt="IISC Banglore"/>
+  <img src="certi2.jpeg" width="200" alt="IGDTUW"/>
+  <img src="certi1.jpeg" width="210" alt="NIT Durgapur"/>
+  <img src="certi.jpeg" width="210" alt="IISC Banglore/>
 </div>
 
 ---
