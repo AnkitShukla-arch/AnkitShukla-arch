@@ -205,10 +205,10 @@
 </tr>
 </table>
 
+
 <h2>🏆 Hackathons</h2>
 
 <div align="center">
-  <img src="" width="180"/>
   <img src="certi3.jpeg" width="180"/>
   <img src="certi2.jpeg" width="180"/>
   <img src="certi1.jpeg" width="180"/>
