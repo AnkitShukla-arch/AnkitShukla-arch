@@ -214,7 +214,11 @@
   <img src="certi2.jpeg" width="180" alt="IGDTUW"/>
   <img src="certi3.jpeg" width="180" alt="IISC Banglore"/>
 </div>
+
+
 ---
+
+
 
 <h2>🐍 System Processes</h2>
 <p align="center">
