@@ -58,7 +58,7 @@
 
 
 
-<h2 align="center">🛠️ Tech Arsenal</h2>
+<h2>🛠️ Tech Arsenal</h2>
 
 <h3 align="center">Languages & Frameworks</h3>
 <p align="center">
