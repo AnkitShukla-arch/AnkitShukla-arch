@@ -58,27 +58,34 @@
 
 
 
-<h2>🛠️ Tech Arsenal</h2>
+<h2 align="center">🛠️ Tech Arsenal</h2>
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
+<h3 align="center">Languages & Frameworks</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,fastapi,flask,html,css,tailwind,bootstrap" />
+</p>
 
-  <img src="https://skillicons.dev/icons?i=python" height="50">
-  <img src="https://skillicons.dev/icons?i=aws" height="50">
-  <img src="https://skillicons.dev/icons?i=docker" height="50">
-  <img src="https://skillicons.dev/icons?i=git" height="50">
-  <img src="https://skillicons.dev/icons?i=github" height="50">
-  <img src="https://skillicons.dev/icons?i=vscode" height="50">
-  <img src="https://skillicons.dev/icons?i=mysql" height="50">
-  <img src="https://skillicons.dev/icons?i=bash" height="50">
+<h3 align="center">Data Science & ML</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Pandas-0A0A23?style=for-the-badge&logo=pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn" />
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras" />
+</p>
 
-  <img src="https://skillicons.dev/icons?i=tensorflow" height="50">
-  <img src="https://skillicons.dev/icons?i=pytorch" height="50">
+<h3 align="center">Tools & Platforms</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,docker,aws,vscode,linux,bash,mysql,postgres,mongodb,redis" />
+</p>
 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" height="50">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" height="50">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" height="50">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" height="50">
-
+<h3 align="center">Cloud & DevOps</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws" />
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes" />
+</p>
 </div>
 
 <h2>💼 Featured Projects</h2>
