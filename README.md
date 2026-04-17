@@ -205,19 +205,32 @@
 </tr>
 </table>
 
-
 <h2>🏆 Hackathons</h2>
 
-<div align="center">
-  <img src="certi.jpeg" width="180" alt="IISC Banglore"/>
-  <img src="certi1.jpeg" width="180" alt="NIT Durgapur"/>
-  <img src="certi2.jpeg" width="180" alt="IGDTUW"/>
-  <img src="certi3.jpeg" width="180" alt="IISC Banglore"/>
-</div>
+<p align="center">
+  <a href="certi.jpeg">
+  </a>
+  <a href="certi1.jpeg">
+    <img src="YOUR_IMAGE_LINK_2" width="180" />
+  </a>
+  <a href="certi2.jpeg">
+    <img src="YOUR_IMAGE_LINK_3" width="180" />
+  </a>
+  <a href="certi3.jpeg">
+    <img src="YOUR_IMAGE_LINK_4" width="180" />
+  </a>
+</p>
 
+<p align="center">
+  <b>IISc Bangalore</b> &nbsp;&nbsp;&nbsp;
+  <b>NIT Durgapur</b> &nbsp;&nbsp;&nbsp;
+  <b>OpenAI</b> &nbsp;&nbsp;&nbsp;
+  <b>Data Sprint</b> &nbsp;&nbsp;&nbsp;
+  <b>GGSIPU</b> &nbsp;&nbsp;&nbsp;
+  <b>IGDTUW</b>
+</p>
 
 ---
-
 
 
 <h2>🐍 System Processes</h2>
