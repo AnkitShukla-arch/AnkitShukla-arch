@@ -216,15 +216,13 @@
 </table>
 
 
-<h2 align="center">🏆 Hackathons</h2>
+<h2>🏆 Hackathons</h2>
 
 <div align="center">
-  <img src="YOUR_IMAGE_LINK_1" width="180"/>
-  <img src="YOUR_IMAGE_LINK_2" width="180"/>
-  <img src="YOUR_IMAGE_LINK_3" width="180"/>
-  <img src="YOUR_IMAGE_LINK_4" width="180"/>
-  <img src="YOUR_IMAGE_LINK_5" width="180"/>
-  <img src="YOUR_IMAGE_LINK_6" width="180"/>
+  <img src="certi.jpeg" width="180" alt="IISC Banglore"/>
+  <img src="certi1.jpeg" width="180" alt="NIT Durgapur"/>
+  <img src="certi2.jpeg" width="180" alt="IGDTUW"/>
+  <img src="certi3.jpeg" width="180" alt="IISC Banglore"/>
 </div>
 ---
 
