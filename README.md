@@ -227,8 +227,15 @@
     <sub><b>IISc Banglore</b></sub>
   </td>
      <td align="center">
-    <img src="samsung certififcate.jpeg" width="250px" alt="Certificate 3"/><br/>
+    <img src="samsung certififcate.jpeg" width="250px" alt="Certificate 5"/><br/>
     <sub><b>Samsung Solve for Tomorrow</b></sub>
+  </td>
+</tr>
+
+<tr>
+  <td align="center">
+    <img src="google-solution-challenge.jpeg" width="250px" alt="Certificate 6"/><br/>
+    <sub><b>Google Solution Challenge</b></sub>
   </td>
 </tr>
 </table>
