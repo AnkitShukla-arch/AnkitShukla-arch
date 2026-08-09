@@ -236,14 +236,12 @@
     <img src="google-solution-challenge.jpeg" width="250px" alt="Certificate 6"/><br/>
     <sub><b>Google Solution Challenge</b></sub>
   </td>
-</tr>
- <tr>
   <td align="center">
     <img src="Build_with_Bharat.jpeg" width="250px" alt="Certificate 7"/><br/>
     <sub><b>Build with Bharat</b></sub>
   </td>
-</tr>
-</table>
+ </table>
+
 
 ---
 
