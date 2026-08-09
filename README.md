@@ -226,6 +226,10 @@
     <img src="certi.jpeg" width="250px" alt="Certificate 4"/><br/>
     <sub><b>IISc Banglore</b></sub>
   </td>
+     <td align="center">
+    <img src="samsung certififcate.jpeg" width="250px" alt="Certificate 3"/><br/>
+    <sub><b>NIT Durgapur</b></sub>
+  </td>
 </tr>
 </table>
 
