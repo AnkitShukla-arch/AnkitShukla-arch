@@ -228,7 +228,7 @@
   </td>
      <td align="center">
     <img src="samsung certififcate.jpeg" width="250px" alt="Certificate 3"/><br/>
-    <sub><b>NIT Durgapur</b></sub>
+    <sub><b>Samsung Solve for Tomorrow</b></sub>
   </td>
 </tr>
 </table>
