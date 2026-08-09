@@ -233,10 +233,28 @@
 </tr>
 
 <tr>
-  <td align="center">
-    <img src="google-solution-challenge.jpeg" width="250px" alt="Certificate 6"/><br/>
-    <sub><b>Google Solution Challenge</b></sub>
-  </td>
+<td colspan="5" align="center" style="padding: 14px;">
+
+<div style="
+    display: inline-block;
+    border: 1px solid #30363d;
+    padding: 10px;
+    text-align: center;
+">
+
+<img
+    src="google-solution-challenge.jpeg"
+    width="220"
+    alt="Certificate 6"
+>
+
+<br>
+
+<p><strong>Google Solution Challenge</strong></p>
+
+</div>
+
+</td>
 </tr>
 </table>
 
