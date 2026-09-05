@@ -6,11 +6,11 @@
 
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/pacman-contribution-graph.svg">
+      srcset="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/output/pacman-contribution-graph.svg">
 
     <img
       alt="Pac-Man contribution graph"
-      src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/pacman-contribution-graph.svg"
+      src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/output/pacman-contribution-graph.svg"
       width="100%">
   </picture>
 </div>
