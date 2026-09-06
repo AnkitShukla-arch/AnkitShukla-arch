@@ -8,7 +8,7 @@
   <img src="https://skills.syvixor.com/api/icons?i=python,mongodb,redis,pandas,numpy,BeautifulSoup,postgresql,mysql,docker,git,github,gitlab,supabase,neon,minio,bash,jupyter,framer,ollama,matplotlib,antigravity&perline=10&radius=40"/>
 </p>
 
-### <samp> Featured Projects
+### <samp> Featured Projects:
 
 | Project | What It Solves | Tech / Concepts | Why It Matters |
 |---|---|---|---|
