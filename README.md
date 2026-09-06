@@ -21,9 +21,9 @@
 <div>
 <h3><b><samp>Socials & Links:</samp></b></h3>
 <p align="center">
-<a href="https://www.linkedin.com/in/ankit-shukla-877705285/"><img alt="akd's Linkdein" width="35px" src="https://skills.syvixor.com/api/icons?i=linkedin&perline=12&radius=60" /></a>
-<a href="https://github.com/AnkitShukla-arch"><img alt="akd's Github" width="35px" src="https://skills.syvixor.com/api/icons?i=github&perline=12&radius=60" /></a>
-<a href="https://www.instagram.com/anku.svg?stkn=cnNlbnIydnY1ZnBn"><img alt="akd's Instagram" width="35px" src="https://skills.syvixor.com/api/icons?i=instagram&perline=12&radius=60" /></a>
-<a href="https://ankitshukla.framer.website/"><img alt="akd's Portfolio" width="35px" src="https://skills.syvixor.com/api/icons?i=framer&perline=12&radius=60" /></a>
+<a href="https://www.linkedin.com/in/ankit-shukla-877705285/"><img alt="akd's Linkdein" width="40px" src="https://skills.syvixor.com/api/icons?i=linkedin&perline=12&radius=60" /></a>
+<a href="https://github.com/AnkitShukla-arch"><img alt="akd's Github" width="40px" src="https://skills.syvixor.com/api/icons?i=github&perline=12&radius=60" /></a>
+<a href="https://www.instagram.com/anku.svg?stkn=cnNlbnIydnY1ZnBn"><img alt="akd's Instagram" width="40px" src="https://skills.syvixor.com/api/icons?i=instagram&perline=12&radius=60" /></a>
+<a href="https://ankitshukla.framer.website/"><img alt="akd's Portfolio" width="40px" src="https://skills.syvixor.com/api/icons?i=framer&perline=12&radius=60" /></a>
 </p>
 </div>
