@@ -8,6 +8,16 @@
   <img src="https://skills.syvixor.com/api/icons?i=python,mongodb,redis,pandas,numpy,BeautifulSoup,postgresql,mysql,docker,git,github,gitlab,supabase,neon,minio,bash,jupyter,framer,ollama,matplotlib,antigravity&perline=10&radius=40"/>
 </p>
 
+### <samp> Pac-Man Contribution Graph:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/output/pacman-contribution-graph.svg">
+</picture>
+
+_Generated with [abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)_
+
 ### <samp> Featured Projects:
 
 | Project | What It Solves | Tech / Concepts | Why It Matters |
