@@ -16,7 +16,13 @@
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/output/pacman-contribution-graph.svg">
 </picture>
 
-_Generated with [abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)_
+ _Generated with [abozanona/pacman-contribution-graph](https://github.com/abozanona/pacman-contribution-graph)_
+
+### <samp> GitWorld Animated City:
+
+![GitWorld](https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/main/dist/gitworld.svg)
+
+_Generated with [Dasmat13/git-world-action](https://github.com/Dasmat13/git-world-action)_
 
 ### <samp> Featured Projects:
 
