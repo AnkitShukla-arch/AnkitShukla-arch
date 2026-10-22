@@ -53,8 +53,19 @@ jobs:
               echo "Pushed updated SVG on attempt $attempt"
               exit 0
             fi
-            sleep 5
-            git pull --rebase --autostash origin main
+
+            # main moved while this job ran: rebuild the commit on top of the
+            # newest main so the freshly generated SVG always wins.
+            echo "Push rejected, replaying the generated SVG on top of latest main"
+            sleep 3
+            git fetch --quiet origin main
+            git reset --quiet --mixed FETCH_HEAD
+            git add dist/gitworld.svg
+            if git diff --staged --quiet; then
+              echo "Remote already has this SVG"
+              exit 0
+            fi
+            git commit -m "Update GitWorld animation"
           done
 
           echo "::error::Could not push the updated GitWorld SVG"
