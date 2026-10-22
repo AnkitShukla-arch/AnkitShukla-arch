@@ -8,10 +8,9 @@
   <img src="https://skills.syvixor.com/api/icons?i=python,mongodb,redis,pandas,numpy,BeautifulSoup,postgresql,mysql,docker,git,github,gitlab,supabase,neon,minio,bash,jupyter,framer,ollama,matplotlib,antigravity&perline=10&radius=40"/>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/output/pacman-contribution-graph-dark.svg">
+<p align="center">
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/AnkitShukla-arch/AnkitShukla-arch/output/pacman-contribution-graph.svg">
-</picture>
+</p>
 
 ### <samp> Featured Projects:
 
